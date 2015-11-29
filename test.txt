@@ -1,0 +1,32 @@
+Sob O
+sob O
+sob... O
+not O
+fated O
+sia... O
+y B-NP
+wait O
+got O
+tonight! O
+Come O
+my O
+house O
+nowplay O
+mj B-NP
+lol O
+
+Now B-NP
+going O
+to O
+market B-NP
+for I-NP
+taking I-NP
+bread I-NP
+
+Hye O
+Aditya,can O
+we O
+have O
+a O
+party O
+tonight? O
