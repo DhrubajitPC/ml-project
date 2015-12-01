@@ -3,7 +3,8 @@ tag_set = []
 word_tag_pairs = []
 sequences = []
 sequence = []
-def process_data(line,word_set,tag_set,word_tag_pairs, sequence, sequences):
+def process_data(line,word_set,tag_set,word_tag_pairs, sequences):
+	global sequence 
 	if len(line)>1:
 		sequence.append(line.strip())
 		word_tag_pairs.append(line.split())
@@ -19,7 +20,9 @@ def process_data(line,word_set,tag_set,word_tag_pairs, sequence, sequences):
 
 for line in open("test.txt","r"):
 # for line in open("npc/train","r"):
-	process_data(line,word_set,tag_set,word_tag_pairs,sequence,sequences)
+	process_data(line,word_set,tag_set,word_tag_pairs,sequences)
+
+sequences.append(sequence)
 
 print word_set
 print tag_set
