@@ -25,7 +25,7 @@ def process_data(line,word_set,tag_set,word_tag_pairs, sequences):
 		sequence = []
 
 # for line in open("test.txt","r"):
-for line in open("npc/train","r"):x	
+for line in open("npc/train","r"):
 # for line in open("pos/train", "r"):
 	process_data(line,word_set,tag_set,word_tag_pairs,sequences)
 

@@ -7,17 +7,19 @@ for line in f.readlines():
 
  myList.append(line.rstrip('\\\n'))
  
-list = myList[6:31]
+# list = myList[6:31]
+list = myList
 
 orglist = []
 for string in list:
     if string != '' and '}':
         a = string.split()
         orglist.append(a)
-    
+
+print orglist    
 orglist[0] = orglist[0][2:]
 
-
+print orglist
 
 f2 = open("/Users/ping/Dropbox/SUTDY3/MACHINE LEARNING/proj/NPC/test2.rtf","r") #opens file with name of "test.txt"
 myList2 = []
