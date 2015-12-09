@@ -264,7 +264,7 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 		return ret
 	#best_tags = copy.deepcopy(tags)
 	best_objf = objf()
-	changed = False
+	changed = True
 	print sequence
 	print tags
 	print 'initial objf:', best_objf
