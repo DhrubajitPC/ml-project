@@ -118,29 +118,62 @@ def get_emission_probabilities(count_word_tag,tag_count):
 		emission_probabilities[word_tag] = float(count_word_tag[word_tag])/tag_count[tag]
 	return emission_probabilities
 
+new_word_set_mapper = {}
+#Handle new words by adding them to emission table and guessing what they are.
+#Special cases includes USR (@), URL (http://), HT (#)
+#lazy handling maps word to existing word in word_set
+#Break word into 2. e.g, word='word' --> (ord), (w, rd), (wo, d), (wor)
+#if a word in word_set contains both, add them to a set. Priority is based on length.
+def new_word(word):
+	if (word not in new_word_set_mapper.keys()):
+		word_permutation1 = []
+		word_permutation2 = []
+		for i in range(len(word)):
+			word_permutation1.append(word[0:i])
+			word_permutation2.append(word[i+1:len(word)])
+		best_match = word_set[0] #default
+		best_score = -9999
+		for w in word_set:
+			score = -(len(w)-len(word))**2 #negative number
+			for wp1 in word_permutation1:
+				if (wp1!='' and (wp1 in w)):
+					score+=len(wp1)
+			for wp2 in word_permutation2:
+				if (wp2!='' and (wp2 in w)):
+					score+=len(wp2)
+			if (score > best_score):
+				best_match = w
+				best_score = score
+				#print 'score: ', score, word, w
+		#print 'new map! ', word, '-->', best_match
+		new_word_set_mapper[word] = best_match
+	return new_word_set_mapper[word]
+
 #get emission probability from emission_probabilities given a word and a tag
 def get_emission_probability(emission_probabilities, tag_count, word, tag):
 	key = word + "_*_" + tag
 	if 	key in emission_probabilities.keys():
 		return emission_probabilities[key]
 	else:
-		if (not word in word_set): #new word. Special cases includes USR (@), URL (http://), HT (#)
+		if (not word in word_set): #new word
 			if (tag=='USR'):
-				return 1.0 if ('@' in word) else 0.0
+				return 1.0 if (word[0]=='@') else 0.0
 			elif (tag=='URL'):
-				return 1.0 if ('http://' in word or 'https://' in word) else 0.0
+				return 1.0 if (word[:7]=='http://' or word[:8]=='https://') else 0.0
 			elif (tag=='HT'):
-				return 1.0 if ('#' in word) else 0.0
-			elif (tag=='VBG'):
-				if (word[-3:]=='ing'):
-					return 1.0/(tag_count[tag]+1)
-			elif (tag=='VBD'):
-				if (word[-2:]=='ed'):
-					return 1.0/(tag_count[tag]+1)
-				elif (word[-1]=='d'):
-					return 0.5/(tag_count[tag]+1)
-			#TODO: find closest match
-			return 0.25/(tag_count[tag]+1) #1/(tag_count+1)
+				return 1.0 if (word[0]=='#') else 0.0
+			#redirect to closest matched word
+			return get_emission_probability(emission_probabilities, tag_count, new_word(word), tag)
+			# elif (tag=='VBG'):
+				# if (word[-3:]=='ing'):
+					# return 1.0/(tag_count[tag]+1)
+			# elif (tag=='VBD'):
+				# if (word[-2:]=='ed'):
+					# return 1.0/(tag_count[tag]+1)
+				# elif (word[-1]=='d'):
+					# return 0.5/(tag_count[tag]+1)
+			# #TODO: find closest match
+			# return 0.25/(tag_count[tag]+1) #1/(tag_count+1)
 		return 1.0/(sum(tag_count.itervalues())+1) #1/(#ofWords+1)
 
 # def pos_tagger(word_list):
@@ -215,10 +248,6 @@ transmission_probabilities = get_transmission_probabilities(count_tag_giventags,
 emission_probabilities = get_emission_probabilities(count_word_tag,tag_count)
 
 print 'done counting tags.'
-		
-print count_word_giventags[",_*_['NN', '**', 'NNS']"]
-print count_word_giventags[",_*_['??', '**', 'NNS']"]
-print count_word_giventags[",_*_['NN', '**', '??']"]
 
 # for tp, val in transmission_probabilities.items():
         # print tp, '-->', val
@@ -233,9 +262,9 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 		for element in range(len(_tags)):
 			ret+= get_transmission_probability(transmission_probabilities, element, _tags, n) * get_emission_probability(emission_probabilities, tag_count, sequence[element], _tags[element])
 		return ret
-	best_tags = copy.deepcopy(tags)
+	#best_tags = copy.deepcopy(tags)
 	best_objf = objf()
-	changed = True
+	changed = False
 	print sequence
 	print tags
 	print 'initial objf:', best_objf
@@ -275,7 +304,7 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 				# counter[for_level]=0
 		# if (for_level>=0):
 			# for_level = for_level-1
-	return
+	return tags
 	
 			
 #Custom made pos_tagger, employing brute force approach to assign tags.
@@ -297,20 +326,20 @@ def pos_tagger(sequences):
 					best_initial_tag = [ep, tag]
 			sequence_pos_tags.append(best_initial_tag[1])
 			
-		seq2 = []
-		seq2tags = []
+		new_pos_tags = []
 		helper = 0
 		for element in range(len(seq)): #break sequences on .
 			tag = sequence_pos_tags[element]
 			#helper.append(seq[element])
 			if tag == '.' or element == len(seq)-1:
-				seq2.append(seq[helper:element+1])
-				seq2tags.append(sequence_pos_tags[helper:element+1])
+				seq2 = seq[helper:element+1]
+				seq2tags = sequence_pos_tags[helper:element+1]
 				helper = element+1
-		#print len(seq), seq2tags
-		for sequence, tags in zip(seq2,seq2tags):
-			sequence_tagger(sequence, tags, transmission_probabilities, tag_count.keys(), 1)
-		sequences_pos_tags.append(sequence_pos_tags)
+				#print len(seq), seq2tags
+				tag_result = sequence_tagger(seq2, seq2tags, transmission_probabilities, tag_count.keys(), 1)
+				for tr in tag_result:
+					new_pos_tags.append(tr)
+		sequences_pos_tags.append(new_pos_tags)
 	return sequences_pos_tags
 
 ##testing part
