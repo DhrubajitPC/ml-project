@@ -156,12 +156,12 @@ def get_emission_probability(emission_probabilities, tag_count, word, tag):
 		return emission_probabilities[key]
 	else:
 		if (not word in word_set): #new word
-			if (tag=='USR'):
-				return 1.0 if (word[0]=='@') else 0.0
-			elif (tag=='URL'):
-				return 1.0 if (word[:7]=='http://' or word[:8]=='https://') else 0.0
-			elif (tag=='HT'):
-				return 1.0 if (word[0]=='#') else 0.0
+			if (word[0]=='@'):
+				return 1.0 if (tag=='USR') else 0.0
+			elif (word[:7]=='http://' or word[:8]=='https://'):
+				return 1.0 if (tag=='URL') else 0.0
+			elif (word[0]=='#'):
+				return 1.0 if (tag=='HT') else 0.0
 			#redirect to closest matched word
 			return get_emission_probability(emission_probabilities, tag_count, new_word(word), tag)
 			# elif (tag=='VBG'):
@@ -174,7 +174,8 @@ def get_emission_probability(emission_probabilities, tag_count, word, tag):
 					# return 0.5/(tag_count[tag]+1)
 			# #TODO: find closest match
 			# return 0.25/(tag_count[tag]+1) #1/(tag_count+1)
-		return 1.0/(sum(tag_count.itervalues())+1) #1/(#ofWords+1)
+		return 1.0/(tag_count[tag]+1) #1/(tag_count+1)
+		#return 1.0/(sum(tag_count.itervalues())+1) #1/(#ofWords+1)
 
 # def pos_tagger(word_list):
 	# global emission_probabilities
@@ -219,12 +220,13 @@ def get_transmission_probability(transmission_probabilities,tag_index,tag_sequen
 		return tp
 	else:
 		if (trim=='n'): #none
+			trim_factor = 1.0/(giventags_count[string_key]+1)
 			if (key[0]!='**'):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='l')
+				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='l')
 			elif(key[-1]!='**'):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
+				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
 			elif(n>1):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
+				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
 		elif (trim=='l'): #left trim
 			if(key[-1]!='**'):
 				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
@@ -233,7 +235,7 @@ def get_transmission_probability(transmission_probabilities,tag_index,tag_sequen
 		else: #right trim
 			if(n>1):
 				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
-		return 1.0/(len(transmission_probabilities.keys())+1)
+		return 1.0/(sum(giventags_count.iteritems())+1)
 
 print 'counting tags...'		
 
@@ -257,13 +259,17 @@ print 'done counting tags.'
 #called by pos_tagger
 #Obj function of this pos_tagger is trans(given other tags)*emm
 def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
-	def objf(_tags=tags):
+	def objf(_tags=tags, log=False):
 		ret = 0.0
 		for element in range(len(_tags)):
-			ret+= get_transmission_probability(transmission_probabilities, element, _tags, n) * get_emission_probability(emission_probabilities, tag_count, sequence[element], _tags[element])
+			tp = get_transmission_probability(transmission_probabilities, element, _tags, n)
+			ep = get_emission_probability(emission_probabilities, tag_count, sequence[element], _tags[element])
+			ret+= tp*ep
+			if (log):
+				print _tags[element], tp, ep
 		return ret
-	#best_tags = copy.deepcopy(tags)
-	best_objf = objf()
+	initial_tags = copy.deepcopy(tags)
+	best_objf = objf(log=True)
 	changed = True
 	print sequence
 	print tags
@@ -281,9 +287,10 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 					best_tag = tag
 					changed=True
 			tags[i] = best_tag
-		print 'Changed!:', objf()
-	print 'final objf:', objf()
-	print tags
+		#print 'Changed!:', objf()
+	print 'final objf:', objf(log=True)
+	#print tags, initial_tags
+	
 	# brute force
 	# max_for_level = len(tags)-1
 	# for_level = max_for_level
@@ -412,6 +419,7 @@ def viterbi_acc(l1,l2):
 		total_count+=len(i)
 	for i in range(len(l1)):
 		for j in range(len(l1[i])):
+			#print l1[i][j], l2[i][j]
 			if l1[i][j] == l2[i][j]:
 				count+=1
 	return float(count)/total_count
@@ -424,5 +432,7 @@ with open(_file, "r") as f:
 actual_tag_sequences = get_actual_tag_sequences(test_output)
 
 write_to_file(p5_file,predicted_word_tag,raw_data)
+
+print new_word_set_mapper
 
 print 'Accuracy:', viterbi_acc(actual_tag_sequences,predicted_word_tag)

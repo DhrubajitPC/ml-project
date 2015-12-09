@@ -165,8 +165,8 @@ tell O
 u B-NP
 meh??? I-NP
 
-That's O
-why O
+That's B-NP
+why B-NP
 I O
 claim O
 like O
@@ -218,9 +218,9 @@ other O
 stuff O
 cus O
 I O
-already O
-have O
-lots B-NP
+already B-NP
+have I-NP
+lots I-NP
 offishes I-NP
 and O
 babies B-NP
@@ -282,7 +282,7 @@ Wait B-NP
 till O
 I O
 get O
-it B-NP
+it O
 then O
 tell O
 you B-NP
@@ -329,10 +329,10 @@ promised I-NP
 my I-NP
 parents O
 I B-NP
-will I-NP
-do I-NP
-well I-NP
-for I-NP
+will O
+do O
+well O
+for O
 studies O
 if O
 I O
@@ -356,37 +356,37 @@ Will O
 be O
 half O
 an O
-hour O
-late B-NP
+hour B-NP
+late I-NP
 u O
 all B-NP
-start O
-first O
+start I-NP
+first I-NP
 sorry... O
 
 I O
 know! B-NP
-But I-NP
-he I-NP
+But O
+he O
 confirm O
 twice O
 I O
 said B-NP
 ok O
 to O
-both. O
-Emo O
+both. B-NP
+Emo I-NP
 
-Hahaha O
-:P O
-how O
+Hahaha I-NP
+:P I-NP
+how I-NP
 was O
 your O
 day B-NP
-! O
+! I-NP
 
-OH O
-LOL B-NP
+OH I-NP
+LOL I-NP
 HAHAHA I-NP
 WHAT I-NP
 IS O
@@ -462,8 +462,8 @@ phonemah O
 ! O
 
 laogong B-NP
-i I-NP
-reach I-NP
+i O
+reach B-NP
 home I-NP
 le. O
 reach O
@@ -473,8 +473,8 @@ k. O
 
 Haha O
 I O
-just B-NP
-woke I-NP
+just O
+woke O
 up:P O
 I O
 think O
@@ -522,12 +522,12 @@ Coz I-NP
 u O
 ask O
 how O
-to O
+to B-NP
 hand O
 in O
-Ma.. O
-thought O
-u O
+Ma.. B-NP
+thought I-NP
+u I-NP
 finished O
 alr.haha O
 
@@ -538,8 +538,8 @@ yet I-NP
 huh O
 
 Haha I-NP
-where O
-on B-NP
+where I-NP
+on I-NP
 facebook I-NP
 !! I-NP
 Haha I-NP
@@ -559,8 +559,8 @@ she O
 never O
 call O
 my O
-parents B-NP
-hahaha! I-NP
+parents O
+hahaha! O
 
 NO O
 I O
@@ -581,48 +581,48 @@ from B-NP
 my B-NP
 chinese I-NP
 class! I-NP
-My I-NP
+My O
 year B-NP
-4 I-NP
-classroom I-NP
-can I-NP
-watch O
-netballheehee B-NP
+4 O
+classroom O
+can O
+watch B-NP
+netballheehee I-NP
 :P I-NP
 I I-NP
 have I-NP
-no I-NP
+no O
 idea O
 where B-NP
-that I-NP
-is! I-NP
-Haha O
-yea O
-suay): B-NP
+that O
+is! O
+Haha B-NP
+yea I-NP
+suay): I-NP
 haha I-NP
-yeah I-NP
-Igot I-NP
-two! I-NP
-Hahaha I-NP
-its I-NP
-alright, I-NP
-difficult I-NP
+yeah O
+Igot O
+two! O
+Hahaha O
+its O
+alright, O
+difficult O
 for O
 me B-NP
 to I-NP
 reply I-NP
 also I-NP
-:x O
+:x I-NP
 
 Yeah I-NP
 funny I-NP
-show O
+show I-NP
 lol O
 
-Alright, I-NP
-you? I-NP
+Alright, O
+you? O
 
-I I-NP
+I B-NP
 WASN'T I-NP
 THE I-NP
 ONE I-NP
@@ -643,9 +643,9 @@ TOLD O
 HIM O
 TO O
 TELL O
-HE O
-SAID O
-NVM O
+HE B-NP
+SAID B-NP
+NVM I-NP
 THEY O
 CAN B-NP
 FIX O
@@ -653,7 +653,7 @@ IT O
 STILL O
 WHATTHE. B-NP
 LOL I-NP
-5 I-NP
+5 O
 MINS O
 TRAIN O
 CAME O
@@ -816,8 +816,8 @@ will O
 come B-NP
 my I-NP
 home I-NP
-next I-NP
-holiday O
+next O
+holiday B-NP
 
 Paiseh! O
 Dun B-NP
@@ -959,9 +959,9 @@ got O
 some O
 leads O
 on B-NP
-a I-NP
-job I-NP
-. I-NP
+a O
+job O
+. O
 I O
 think B-NP
 of O
@@ -969,8 +969,8 @@ you O
 , O
 boytoy O
 and O
-send O
-you O
+send B-NP
+you I-NP
 a O
 passionate B-NP
 kiss I-NP
@@ -1059,11 +1059,11 @@ Just I-NP
 ended I-NP
 camp I-NP
 a I-NP
-few O
-hrs B-NP
-ago I-NP
-, I-NP
-will I-NP
+few I-NP
+hrs O
+ago O
+, O
+will O
 be O
 going O
 for O
@@ -1120,7 +1120,7 @@ me O
 is O
 wat O
 age B-NP
-grp I-NP
+grp O
 de O
 
 we O
@@ -1171,9 +1171,9 @@ soon O
 le. O
 Muuuacks O
 
-Haha O
-okay! O
-Jyjy! O
+Haha B-NP
+okay! I-NP
+Jyjy! I-NP
 I O
 need O
 to O
@@ -1195,8 +1195,8 @@ offer O
 Yeap O
 it O
 's B-NP
-over, I-NP
-if I-NP
+over, O
+if B-NP
 I I-NP
 didv I-NP
 well B-NP
@@ -1230,7 +1230,7 @@ reached! O
 Yup O
 he O
 still O
-in O
+in B-NP
 hostel O
 ! O
 
@@ -1248,7 +1248,7 @@ car O
 . O
 
 Thurs O
-seems O
+seems B-NP
 to O
 be O
 better. O
@@ -1292,16 +1292,16 @@ wont O
 be O
 too O
 serious O
-about B-NP
-this B-NP
+about O
+this O
 . O
 Obviously O
 we O
 have O
 quite B-NP
 different O
-expectations O
-from B-NP
+expectations B-NP
+from I-NP
 this I-NP
 relationship O
 . O
@@ -1339,27 +1339,27 @@ what O
 the B-NP
 how I-NP
 didhe I-NP
-even I-NP
-know I-NP
-I I-NP
-stay I-NP
-here I-NP
-omg! I-NP
+even O
+know O
 I O
-feel B-NP
+stay O
+here O
+omg! O
+I B-NP
+feel I-NP
 stalked I-NP
 LOL. I-NP
 Haha O
 yea B-NP
 we I-NP
-'re I-NP
-benten I-NP
-cafe I-NP
+'re O
+benten O
+cafe B-NP
 ! O
 Looks B-NP
-like O
-my B-NP
-parents I-NP
+like I-NP
+my I-NP
+parents O
 in O
 a B-NP
 good I-NP
@@ -1385,8 +1385,8 @@ Come O
 fast O
 
 Nvm O
-la O
-u B-NP
+la B-NP
+u I-NP
 stay I-NP
 lo? I-NP
 My O
@@ -1444,7 +1444,7 @@ LOL. O
 I O
 LEFT O
 MY B-NP
-COM I-NP
+COM O
 ON O
 COZ B-NP
 I O
@@ -1461,8 +1461,8 @@ knock B-NP
 off B-NP
 work I-NP
 at O
-that B-NP
-time? B-NP
+that O
+time? O
 Don't B-NP
 really B-NP
 have O
@@ -1531,8 +1531,8 @@ poke! O
 drink O
 morewater!!! O
 Yups O
-it O
-was O
+it B-NP
+was I-NP
 lunch! O
 I O
 just O
@@ -1547,8 +1547,8 @@ thehibernation O
 data O
 file O
 corrupted O
-cannot B-NP
-open, I-NP
+cannot O
+open, B-NP
 v I-NP
 sian I-NP
 haha! I-NP
@@ -1564,9 +1564,9 @@ age O
 Interview B-NP
 tomorrow B-NP
 at O
-<#> O
-am O
-. B-NP
+<#> B-NP
+am I-NP
+. I-NP
 Wish I-NP
 me I-NP
 luck! I-NP
@@ -1586,7 +1586,7 @@ watch O
 together O
 another O
 day O
-? B-NP
+? O
 
 Haven't O
 yet, B-NP
@@ -1597,11 +1597,11 @@ to O
 register B-NP
 tmr O
 haha B-NP
-ps B-NP
-forgot B-NP
-to I-NP
-tell I-NP
-you!Yeah I-NP
+ps O
+forgot O
+to O
+tell O
+you!Yeah B-NP
 I I-NP
 guess I-NP
 I I-NP
@@ -1716,19 +1716,19 @@ Scoliosis O
 Clinic O
 HPB B-NP
 Level B-NP
-4 O
-, O
-is O
+4 I-NP
+, I-NP
+is I-NP
 on O
 <#> B-NP
-Mar O
-<#> B-NP
-at I-NP
-<DECIMAL> I-NP
-pm O
-. O
-To O
-cancel B-NP
+Mar I-NP
+<#> I-NP
+at O
+<DECIMAL> B-NP
+pm I-NP
+. I-NP
+To I-NP
+cancel I-NP
 or O
 change B-NP
 appt I-NP
@@ -1739,7 +1739,7 @@ call O
 NUH O
 ). O
 
-I O
+I I-NP
 saw O
 your O
 pictures B-NP
@@ -1751,8 +1751,8 @@ u O
 look B-NP
 better O
 if O
-u O
-makeup O
+u B-NP
+makeup I-NP
 urself O
 .. B-NP
 
@@ -1837,9 +1837,9 @@ P O
 Y O
 B O
 I O
-R B-NP
-T B-NP
-H I-NP
+R O
+T O
+H O
 D O
 A O
 Y O
@@ -1871,20 +1871,20 @@ go O
 buy O
 nuggets. O
 Nus O
-sold O
-u O
-t. O
+sold B-NP
+u I-NP
+t. I-NP
 
 Darling O
 i O
 meet O
 u O
-at O
-ur B-NP
+at B-NP
+ur I-NP
 place I-NP
 ? I-NP
-Den O
-i O
+Den I-NP
+i I-NP
 bring O
 the O
 mooncake O
@@ -1955,7 +1955,7 @@ What I-NP
 happen O
 tell B-NP
 
-Why O
+Why I-NP
 would O
 I O
 do B-NP
@@ -2015,11 +2015,11 @@ Coa I-NP
 Fk I-NP
 eng I-NP
 Fk O
-LCS B-NP
+LCS O
 
 U O
 so O
-early B-NP
+early O
 
 West I-NP
 mall!! O
@@ -2170,15 +2170,15 @@ nigpun? B-NP
 Haha I-NP
 just I-NP
 walk I-NP
-towards O
-the O
-bugis B-NP
+towards B-NP
+the B-NP
+bugis O
 junction O
 there B-NP
 I I-NP
 shall I-NP
 spot I-NP
-you!Iluma O
+you!Iluma I-NP
 very O
 far! O
 What O
@@ -2217,7 +2217,7 @@ u I-NP
 going I-NP
 these I-NP
 days I-NP
-ah? I-NP
+ah? O
 
 Ok. B-NP
 Nate I-NP
@@ -2414,7 +2414,7 @@ the O
 future B-NP
 . I-NP
 
-reach I-NP
+reach O
 home O
 le B-NP
 dear, O
@@ -2426,9 +2426,9 @@ today!! O
 ;mugs B-NP
 
 Haha. O
-At O
-woodlands O
-coming B-NP
+At B-NP
+woodlands I-NP
+coming I-NP
 back.. I-NP
 never I-NP
 mind O
@@ -2468,8 +2468,8 @@ nice! O
 Next O
 time B-NP
 try I-NP
-to I-NP
-do I-NP
+to O
+do B-NP
 for I-NP
 you! I-NP
 
@@ -2480,19 +2480,19 @@ coz I-NP
 I O
 never O
 call B-NP
-you O
-at B-NP
+you I-NP
+at I-NP
 8? I-NP
 Haha I-NP
 >< I-NP
 okay O
->< B-NP
+>< O
 
-I I-NP
-'m I-NP
+I O
+'m B-NP
 stuck I-NP
-at I-NP
-boarding I-NP
+at O
+boarding O
 zzz O
 
 Am O
@@ -2500,9 +2500,9 @@ on O
 my B-NP
 way I-NP
 . O
-Just B-NP
-left I-NP
-Q.C. I-NP
+Just O
+left O
+Q.C. B-NP
 
 Kk I-NP
 (: I-NP
@@ -2514,7 +2514,7 @@ I B-NP
 off I-NP
 class I-NP
 le O
-leh. B-NP
+leh. O
 
 Good I-NP
 afternoon I-NP
@@ -2537,11 +2537,11 @@ hope O
 your O
 well, B-NP
 my I-NP
-boytoy O
-... O
-I O
-think O
-of O
+boytoy I-NP
+... I-NP
+I I-NP
+think I-NP
+of I-NP
 you O
 ... O
 
@@ -2608,8 +2608,8 @@ documentstoday. B-NP
 My O
 office O
 address O
-is B-NP
-AS6 I-NP
+is O
+AS6 O
 # O
 <#> O
 , O
@@ -2624,8 +2624,8 @@ the O
 courier O
 my B-NP
 hp O
-number O
-as O
+number B-NP
+as I-NP
 i O
 may B-NP
 be O
@@ -2717,7 +2717,7 @@ Really O
 Incredible B-NP
 India B-NP
 * I-NP
-Itna I-NP
+Itna O
 forward O
 karo O
 ki O
@@ -2795,9 +2795,9 @@ YYH O
 7! B-NP
 
 Haha O
-we O
-still O
-slacking O
+we B-NP
+still I-NP
+slacking I-NP
 at O
 cally O
 house O
@@ -2828,16 +2828,16 @@ will O
 be B-NP
 sian I-NP
 coz I-NP
-cannot B-NP
-see B-NP
-you!Haha I-NP
+cannot O
+see O
+you!Haha B-NP
 okay I-NP
 maybe I-NP
 tonight O
 when O
 I O
 reach O
-home!(: B-NP
+home!(: O
 
 U O
 wan B-NP
@@ -2852,9 +2852,9 @@ soon. I-NP
 Haha O
 yeah B-NP
 and I-NP
-jj O
-. O
-Just O
+jj I-NP
+. I-NP
+Just I-NP
 meeting O
 only. O
 
@@ -2878,9 +2878,9 @@ yeiyei O
 Washup O
 quickly O
 then O
-u O
-can O
-go O
+u B-NP
+can I-NP
+go I-NP
 do O
 ur O
 tutorial O
@@ -3026,8 +3026,8 @@ to B-NP
 give B-NP
 you O
 drugs O
-answer O
-your O
+answer B-NP
+your I-NP
 fucking O
 phone O
 
@@ -3044,8 +3044,8 @@ you, O
 mr B-NP
 tan. B-NP
 Are O
-you B-NP
-able I-NP
+you O
+able O
 to O
 issue O
 me O
@@ -3101,8 +3101,8 @@ realised O
 we O
 didn't O
 havedinner, O
-I B-NP
-hope I-NP
+I O
+hope O
 you B-NP
 ate B-NP
 afterwards! O
@@ -3115,10 +3115,10 @@ Hahaha O
 ooo B-NP
 where O
 did O
-you B-NP
-get I-NP
-the I-NP
-water O
+you O
+get O
+the O
+water B-NP
 guns O
 ! O
 Haha O
@@ -3172,9 +3172,9 @@ home O
 yet? O
 
 Yeah B-NP
-yay! O
+yay! I-NP
 
-Lol? B-NP
+Lol? I-NP
 Umm O
 okay B-NP
 haha. O
@@ -3183,7 +3183,7 @@ Kk B-NP
 downstairs I-NP
 liao. I-NP
 
-YEAH O
+YEAH I-NP
 I O
 WANT O
 CHEM O
@@ -3193,15 +3193,15 @@ chem I-NP
 modul O
 es B-NP
 leh I-NP
-but O
-did O
+but I-NP
+did I-NP
 ny O
 *tag-error* O
 getnomina O
 ted? O
 Haha O
-work B-NP
-er!! I-NP
+work O
+er!! O
 I O
 also O
 di O
@@ -3340,8 +3340,8 @@ intensively. O
 I B-NP
 just O
 said O
-the B-NP
-wrong I-NP
+the O
+wrong O
 thing.cus O
 I O
 was O
@@ -3365,8 +3365,8 @@ want B-NP
 posting I-NP
 in I-NP
 chennai O
-:)because O
-i O
+:)because B-NP
+i B-NP
 'm O
 working B-NP
 here B-NP
@@ -3444,12 +3444,12 @@ this O
 sat O
 can O
 u B-NP
-b O
+b I-NP
 e O
 projectionist O
 ? O
 Can O
-I O
+I B-NP
 arrange O
 e O
 briefing O
@@ -3607,17 +3607,17 @@ to O
 reach O
 earlier O
 ? O
-:-P O
+:-P B-NP
 
-Okayy O
+Okayy I-NP
 it O
 s O
 fineeeee O
 :) O
 
-Orh. I-NP
-Laogong I-NP
-want I-NP
+Orh. O
+Laogong O
+want O
 
 .....after B-NP
 les I-NP
@@ -3644,11 +3644,11 @@ morning? O
 n O
 ks B-NP
 are O
-yo O
-u O
-still O
-thinking O
-about O
+yo B-NP
+u I-NP
+still I-NP
+thinking I-NP
+about I-NP
 queues O
 . O
 . O
@@ -3702,9 +3702,9 @@ here O
 at B-NP
 ur O
 door, B-NP
-plz I-NP
-cum I-NP
-out. I-NP
+plz O
+cum O
+out. O
 cant O
 w8 O
 more. O
@@ -3731,9 +3731,9 @@ have I-NP
 to! I-NP
 We I-NP
 can I-NP
-tomorrow O
-if O
-you B-NP
+tomorrow I-NP
+if I-NP
+you I-NP
 want! O
 
 Hahahaha O
@@ -3761,9 +3761,9 @@ reply._. O
 How B-NP
 come O
 suddenly O
-ur O
-parents O
-buy B-NP
+ur B-NP
+parents B-NP
+buy I-NP
 
 Karyee I-NP
 tmr I-NP
@@ -3778,7 +3778,7 @@ u I-NP
 can I-NP
 try I-NP
 asking O
-the O
+the B-NP
 others O
 lol... O
 I O
@@ -3839,8 +3839,8 @@ cannot O
 imagine:P O
 WHAT O
 . O
-REALLY? O
-that B-NP
+REALLY? B-NP
+that I-NP
 is I-NP
 such I-NP
 a O
@@ -4014,8 +4014,8 @@ chem O
 No O
 way O
 I'm O
-going B-NP
-back I-NP
+going O
+back O
 there O
 ! O
 
@@ -4066,8 +4066,8 @@ that O
 work O
 haha, O
 how O
-manysubjects B-NP
-do B-NP
+manysubjects O
+do O
 you O
 take B-NP
 anyway! I-NP
@@ -4084,7 +4084,7 @@ symbol B-NP
 is I-NP
 tt O
 
-Hi, O
+Hi, B-NP
 is O
 lyvia O
 here O
@@ -4198,7 +4198,7 @@ Hey O
 so O
 wat O
 time O
-2moro O
+2moro B-NP
 
 Hahaha I-NP
 I I-NP
@@ -4210,8 +4210,8 @@ you O
 What O
 are B-NP
 you O
-talking O
-about?Hahaha O
+talking B-NP
+about?Hahaha I-NP
 i O
 'm B-NP
 not B-NP
@@ -4257,7 +4257,7 @@ lyalready? O
 Haha. B-NP
 And O
 wad B-NP
-time O
+time I-NP
 will O
 u O
 b O
@@ -4342,8 +4342,8 @@ it O
 'll O
 get O
 to B-NP
-the I-NP
-back I-NP
+the O
+back O
 
 Subsidy? O
 For O
@@ -4390,7 +4390,7 @@ to O
 begin._. B-NP
 Haha O
 t B-NP
-oth O
+oth I-NP
 er O
 es O
 XD O
@@ -4430,7 +4430,7 @@ need O
 to B-NP
 chiong I-NP
 assignment O
-. B-NP
+. O
 
 Lol... I-NP
 ok. O
@@ -4448,9 +4448,9 @@ U B-NP
 mean O
 yest? B-NP
 Lols O
-soh O
-SIS O
-and B-NP
+soh B-NP
+SIS I-NP
+and O
 I O
 bullied O
 loo B-NP
@@ -4489,7 +4489,7 @@ le. O
 Sure I-NP
 why I-NP
 not I-NP
-goh I-NP
+goh O
 told O
 me O
 ytd O
@@ -4549,8 +4549,8 @@ home O
 
 Ya O
 lor!!! O
-So O
-wan O
+So B-NP
+wan B-NP
 many O
 baobao O
 from O
@@ -4608,9 +4608,9 @@ slowly! O
 
 Just O
 wondering, O
-since O
-it's O
-not B-NP
+since B-NP
+it's I-NP
+not I-NP
 a I-NP
 school I-NP
 night, I-NP
@@ -4809,8 +4809,8 @@ was O
 myfault. O
 :-( O
 
-Go O
-to B-NP
+Go I-NP
+to I-NP
 hell O
 
 Nope I-NP
@@ -4848,9 +4848,9 @@ cab O
 still O
 late! O
 
-I O
-call B-NP
-you O
+I B-NP
+call I-NP
+you I-NP
 now? O
 
 I I-NP
@@ -4858,20 +4858,20 @@ emailed O
 you. O
 
 igiftyoulove.blogspot.com O
-see O
+see B-NP
 if O
 you O
 all O
 can O
 help. O
 She O
-needs B-NP
-to I-NP
-raise I-NP
+needs O
+to O
+raise B-NP
 <#> I-NP
 k. I-NP
 
-Well I-NP
+Well O
 thats O
 exciting O
 
@@ -4983,10 +4983,10 @@ Ok... O
 so O
 how O
 is O
-ur O
-date O
-wif.wq O
-lol B-NP
+ur B-NP
+date I-NP
+wif.wq I-NP
+lol I-NP
 
 Probably I-NP
 take I-NP
@@ -5049,9 +5049,9 @@ able B-NP
 to I-NP
 come O
 
-I O
-thick O
-its B-NP
+I B-NP
+thick B-NP
+its O
 fair O
 pick. O
 
@@ -5095,7 +5095,7 @@ baobei B-NP
 
 Huh! O
 So O
-zhun! O
+zhun! B-NP
 Ohh O
 wells O
 you O
@@ -5175,8 +5175,8 @@ come I-NP
 Okay O
 can O
 
-Hahaha I-NP
-she I-NP
+Hahaha O
+she O
 doesn't O
 look O
 like O
@@ -5242,7 +5242,7 @@ lol. O
 study O
 forexam O
 also B-NP
-cabbage O
+cabbage I-NP
 study O
 together B-NP
 mah O
@@ -5273,17 +5273,17 @@ x.x O
 haha O
 okay! B-NP
 I O
-fell B-NP
-asleep I-NP
-in O
+fell O
+asleep O
+in B-NP
 lkh's O
 class O
 and O
 he O
 woke B-NP
 me I-NP
-up! O
-Lol O
+up! I-NP
+Lol I-NP
 who O
 is O
 the O
@@ -5304,10 +5304,10 @@ no O
 la O
 its O
 alright(: O
-haha B-NP
-ok B-NP
-get I-NP
-home I-NP
+haha O
+ok O
+get O
+home O
 safe! O
 Haha O
 maybe O
@@ -5336,9 +5336,9 @@ was O
 the O
 cartoon O
 but O
-turns O
-out O
-its O
+turns B-NP
+out I-NP
+its I-NP
 nothaha! O
 Yea O
 I O
@@ -5366,8 +5366,8 @@ to B-NP
 know B-NP
 computer O
 works B-NP
-and O
-stuff, O
+and I-NP
+stuff, I-NP
 the O
 slightly O
 more O
@@ -5388,8 +5388,8 @@ which O
 kind O
 u O
 want? B-NP
-heavier/liighter O
-? O
+heavier/liighter I-NP
+? I-NP
 
 He O
 has B-NP
@@ -5397,8 +5397,8 @@ lots I-NP
 of I-NP
 used O
 ones B-NP
-babe I-NP
-, I-NP
+babe O
+, O
 but O
 the B-NP
 model I-NP
@@ -5448,8 +5448,8 @@ right? O
 Hmm. O
 Not O
 yet. O
-My B-NP
-dear I-NP
+My O
+dear B-NP
 . I-NP
 Hee. I-NP
 What I-NP
@@ -5614,9 +5614,9 @@ get O
 angrywith O
 me! B-NP
 Like O
-take O
-turns O
-lol! B-NP
+take B-NP
+turns I-NP
+lol! O
 Hahaha O
 no O
 la B-NP
@@ -5715,8 +5715,8 @@ u O
 later O
 
 :: I-NP
-grinds B-NP
-teeth B-NP
+grinds O
+teeth O
 :: O
 
 Yeah O
@@ -5832,9 +5832,9 @@ I O
 dun O
 know): O
 hopefully O
-I O
-get O
-better B-NP
+I B-NP
+get I-NP
+better I-NP
 by I-NP
 then! I-NP
 Hahaha I-NP
@@ -5872,9 +5872,9 @@ I'm O
 eating O
 zha B-NP
 yu O
-pian O
-tang O
-with B-NP
+pian B-NP
+tang B-NP
+with I-NP
 rice! I-NP
 (:yeah I-NP
 but O
@@ -5939,7 +5939,7 @@ just I-NP
 want I-NP
 a I-NP
 good I-NP
-community I-NP
+community O
 and B-NP
 chance B-NP
 to O
@@ -5958,9 +5958,9 @@ they're O
 normal O
 people B-NP
 whoagree O
-with B-NP
-intellectual I-NP
-truths I-NP
+with O
+intellectual O
+truths O
 and O
 happen O
 to B-NP
@@ -6035,7 +6035,7 @@ better? O
 I I-NP
 also O
 dunno B-NP
-maybe O
+maybe I-NP
 they O
 cut O
 me O
@@ -6056,9 +6056,9 @@ no B-NP
 make I-NP
 up O
 one O
-is O
-naturally O
-smooth B-NP
+is B-NP
+naturally I-NP
+smooth I-NP
 de I-NP
 lol I-NP
 
@@ -6078,7 +6078,7 @@ The O
 cafe O
 isclosed, B-NP
 but I-NP
-I I-NP
+I O
 will O
 be O
 able O
@@ -6141,8 +6141,8 @@ and O
 I B-NP
 just O
 wanted O
-you B-NP
-to I-NP
+you O
+to B-NP
 know O
 I B-NP
 would O
@@ -6291,9 +6291,9 @@ is I-NP
 <EMAIL> I-NP
 
 Nothing O
-:D O
-woohoo O
-have O
+:D B-NP
+woohoo B-NP
+have I-NP
 you O
 done O
 reflections O
@@ -6338,8 +6338,8 @@ suddenly B-NP
 realise O
 how O
 great B-NP
-your O
-existence O
+your I-NP
+existence I-NP
 in O
 hostel O
 is O
@@ -6403,8 +6403,8 @@ passable. O
 And O
 if O
 you O
-get B-NP
-a I-NP
+get O
+a O
 high O
 score O
 and O
@@ -6414,18 +6414,18 @@ phd B-NP
 , O
 you B-NP
 get I-NP
-5years O
-of B-NP
+5years I-NP
+of I-NP
 salary O
 . O
-So B-NP
-it I-NP
-makes I-NP
+So O
+it O
+makes B-NP
 life I-NP
-easier. O
+easier. I-NP
 
-Ya O
-I O
+Ya B-NP
+I I-NP
 will O
 do O
 it. O
@@ -6445,7 +6445,7 @@ people O
 eh. O
 Havent B-NP
 really I-NP
-start I-NP
+start O
 promoting O
 yet. O
 Iwill O
@@ -6453,7 +6453,7 @@ go O
 to O
 schools B-NP
 next B-NP
-week O
+week B-NP
 to O
 get O
 my O
@@ -6583,7 +6583,7 @@ that? O
 Raghav O
 said B-NP
 dun I-NP
-have! B-NP
+have! O
 
 lk O
 to O
@@ -6668,7 +6668,7 @@ paddle O
 home O
 today O
 ,can B-NP
-use O
+use I-NP
 until O
 next O
 year O
@@ -6680,8 +6680,8 @@ not O
 going O
 training B-NP
 liao B-NP
-The I-NP
-paddle I-NP
+The O
+paddle O
 is O
 2m O
 I O
@@ -6718,9 +6718,9 @@ m O
 going O
 *tag-error* O
 *tag-error* O
-fail O
-chinese! O
-*tag-error* B-NP
+fail B-NP
+chinese! B-NP
+*tag-error* O
 
 Haha B-NP
 it I-NP
@@ -6729,7 +6729,7 @@ raining I-NP
 again): I-NP
 accident I-NP
 ! O
-We O
+We B-NP
 using O
 it O
 to O
@@ -6801,7 +6801,7 @@ you're B-NP
 sleeping I-NP
 well! I-NP
 
-I B-NP
+I I-NP
 plan I-NP
 all I-NP
 halal I-NP
@@ -6835,7 +6835,7 @@ u O
 all O
 leaving? B-NP
 I I-NP
-tot I-NP
+tot O
 eat O
 out O
 
@@ -6885,8 +6885,8 @@ throw O
 stuffs O
 at O
 ppl O
-car O
-rite O
+car B-NP
+rite I-NP
 
 Woot O
 thx O
@@ -6956,8 +6956,8 @@ lo O
 
 Haha I-NP
 no I-NP
-la O
-mine B-NP
+la I-NP
+mine I-NP
 are I-NP
 chinese O
 haha:P O
@@ -7038,8 +7038,8 @@ I O
 was B-NP
 sleeping! I-NP
 
-All O
-home O
+All B-NP
+home I-NP
 ? O
 
 Haha O
@@ -7071,10 +7071,10 @@ to O
 VivoCity B-NP
 later. I-NP
 Do O
-you O
-wantme O
-to O
-da O
+you B-NP
+wantme I-NP
+to I-NP
+da I-NP
 bao O
 fish O
 soup O
@@ -7118,7 +7118,7 @@ if O
 sheis B-NP
 leh! O
 You B-NP
-said I-NP
+said O
 <#> O
 mah! B-NP
 Haha I-NP
@@ -7162,7 +7162,7 @@ doing O
 with O
 who O
 
-hihi, O
+hihi, I-NP
 so O
 are O
 we O
@@ -7199,7 +7199,7 @@ later. O
 Oh O
 *tag-error* O
 sorr O
-y! O
+y! B-NP
 
 Haha B-NP
 wht O
@@ -7230,17 +7230,17 @@ say O
 if O
 not O
 enuff O
-ka O
-then O
-she O
-play... B-NP
+ka B-NP
+then B-NP
+she I-NP
+play... O
 
-I O
+I B-NP
 think O
 so O
 haha O
 
-I'm O
+I'm B-NP
 here O
 
 Hor O
@@ -7374,10 +7374,10 @@ hahaha O
 I O
 dun O
 know B-NP
-I O
-think O
-I O
-will B-NP
+I I-NP
+think I-NP
+I I-NP
+will I-NP
 do I-NP
 the O
 thingChester O
@@ -7386,33 +7386,33 @@ raghav O
 jio O
 me B-NP
 to B-NP
-last I-NP
-time I-NP
-coz I-NP
+last O
+time O
+coz B-NP
 it I-NP
 's I-NP
-really I-NP
-the I-NP
+really O
+the O
 easiestheehee:D O
 okay! B-NP
 
-Lol O
-happy B-NP
+Lol I-NP
+happy I-NP
 new I-NP
 year I-NP
 jeff! I-NP
 
-Lol I-NP
-idk I-NP
-which I-NP
-block I-NP
+Lol O
+idk O
+which B-NP
+block O
 
 i O
 shld B-NP
 be O
 able O
 to B-NP
-start O
+start I-NP
 ard O
 4th O
 December, O
@@ -7445,13 +7445,13 @@ super O
 filingaccording O
 to O
 Chester B-NP
-hahaha O
-but B-NP
+hahaha I-NP
+but I-NP
 the I-NP
 drinks O
-there O
-are O
-ex!! B-NP
+there B-NP
+are B-NP
+ex!! O
 
 Dear B-NP
 I I-NP
@@ -7488,13 +7488,13 @@ ah I-NP
 
 T.T. I-NP
 I O
-s O
-o O
+s B-NP
+o B-NP
 lo O
 overslept B-NP
 for O
-the B-NP
-n B-NP
+the O
+n O
 g O
 T.T.... B-NP
 d O
@@ -7550,7 +7550,7 @@ Haha B-NP
 
 The I-NP
 camp O
-commander O
+commander B-NP
 wan O
 steal B-NP
 my O
@@ -7678,9 +7678,9 @@ need O
 his O
 information, B-NP
 because B-NP
-my O
-hard O
-disk B-NP
+my I-NP
+hard I-NP
+disk I-NP
 is I-NP
 not O
 with O
@@ -7714,8 +7714,8 @@ lol. O
 Ohh O
 okay O
 we B-NP
-'ll O
-reach B-NP
+'ll I-NP
+reach I-NP
 about I-NP
 the I-NP
 same I-NP
@@ -7736,13 +7736,13 @@ mrtone B-NP
 ! O
 Yeah O
 heehee O
-coz B-NP
-it I-NP
-s I-NP
-in O
-front O
-what! O
-:P O
+coz O
+it O
+s O
+in B-NP
+front I-NP
+what! I-NP
+:P I-NP
 
 What B-NP
 time I-NP
@@ -7758,9 +7758,9 @@ the I-NP
 cost I-NP
 for I-NP
 the O
-attic O
-door O
-and O
+attic B-NP
+door I-NP
+and I-NP
 whether O
 thepartition O
 can O
@@ -7779,9 +7779,9 @@ still I-NP
 only I-NP
 have O
 thee O
-original O
-ones O
-. B-NP
+original B-NP
+ones I-NP
+. I-NP
 
 Thanks I-NP
 =) O
@@ -7795,8 +7795,8 @@ long O
 
 Hahaha B-NP
 confusing! O
-And B-NP
-no B-NP
+And O
+no O
 i'm O
 not!!! O
 
@@ -7933,7 +7933,7 @@ found O
 anything B-NP
 alr? I-NP
 
-Me O
+Me I-NP
 , O
 i O
 dont B-NP
@@ -7943,8 +7943,8 @@ oh O
 
 Haiz O
 dunno O
-him O
-la. O
+him B-NP
+la. I-NP
 Feel O
 like O
 I O
@@ -7974,7 +7974,7 @@ groups O
 HUH B-NP
 YOU B-NP
 ALL I-NP
-BATHED O
+BATHED I-NP
 ON O
 THE O
 BROWN O
@@ -8087,9 +8087,9 @@ thing O
 ! O
 
 I O
-dunno... O
-do O
-I O
+dunno... B-NP
+do B-NP
+I I-NP
 ? B-NP
 
 itch O
@@ -8103,8 +8103,8 @@ act O
 ician O
 
 I O
-heard O
-that O
+heard B-NP
+that I-NP
 ! O
 So O
 awesome. O
@@ -8116,8 +8116,8 @@ Hahaha O
 not O
 really. O
 Lavender B-NP
-here B-NP
-jam B-NP
+here O
+jam O
 eh. O
 
 How B-NP
@@ -8136,7 +8136,7 @@ a O
 slow O
 mtg! O
 Haha O
-jyjy! O
+jyjy! B-NP
 
 I B-NP
 will O
@@ -8159,7 +8159,7 @@ for O
 capetown O
 , O
 xt O
-working O
+working B-NP
 , O
 lynette O
 at O
@@ -8234,8 +8234,8 @@ Oh O
 ya O
 ya. O
 I O
-remember O
-da. B-NP
+remember B-NP
+da. I-NP
 . I-NP
 
 i B-NP
@@ -8245,8 +8245,8 @@ yhen O
 get O
 charger O
 frm O
-u O
-.. B-NP
+u B-NP
+.. I-NP
 
 Bring B-NP
 natural I-NP
@@ -8269,8 +8269,8 @@ printing O
 
 Alright B-NP
 see O
-you B-NP
-then I-NP
+you O
+then O
 
 All O
 right B-NP
@@ -8453,7 +8453,7 @@ service O
 ! B-NP
 Haha O
 yay O
-glad O
+glad B-NP
 you O
 enjoyed B-NP
 the I-NP
@@ -8565,8 +8565,8 @@ met O
 <name> O
 and O
 took O
-her B-NP
-friends I-NP
+her O
+friends O
 .-. O
 XP O
 
@@ -8583,7 +8583,7 @@ mrlvin's O
 mum. B-NP
 :) O
 
-Haha B-NP
+Haha O
 meet O
 at O
 tpy O
@@ -8613,18 +8613,18 @@ eh. O
 
 i I-NP
 m O
-vry O
+vry B-NP
 sorry.. O
 
 Yeah, O
 in B-NP
 fact I-NP
 he O
-just O
+just B-NP
 asked O
-if O
-we O
-needed O
+if B-NP
+we B-NP
+needed I-NP
 anything O
 like O
 an O
@@ -8642,8 +8642,8 @@ at O
 !:P O
 haha O
 nothing O
-in O
-particular O
+in B-NP
+particular B-NP
 leh:x! O
 You B-NP
 really I-NP
@@ -8657,34 +8657,34 @@ at O
 home O
 ! O
 
-Hey O
-billy O
-be O
-brave O
-for O
+Hey B-NP
+billy I-NP
+be I-NP
+brave I-NP
+for I-NP
 ur O
 surgery O
 
-Haha O
-is B-NP
+Haha B-NP
+is O
 it O
-! O
+! B-NP
 Ooo O
-ahh O
+ahh B-NP
 haha O
 dunno B-NP
 later I-NP
-tonight O
-I O
-ask! B-NP
+tonight I-NP
 I I-NP
-want I-NP
-Milo I-NP
+ask! I-NP
+I I-NP
+want O
+Milo O
 too!!! O
 
 Hahaha B-NP
-he O
-'s B-NP
+he I-NP
+'s O
 nice O
 lah! B-NP
 Ehh, I-NP
@@ -8725,10 +8725,10 @@ hee B-NP
 
 Nope. O
 I O
-just O
-forgot. O
-Will O
-show O
+just B-NP
+forgot. I-NP
+Will I-NP
+show I-NP
 next O
 week O
 
@@ -8741,15 +8741,15 @@ chill? O
 
 Fineeeeee B-NP
 bless I-NP
-you!!!! I-NP
+you!!!! O
 
-Mon O
+Mon B-NP
 I O
 wanna B-NP
 go I-NP
 sentosa I-NP
-play I-NP
-volleyball I-NP
+play O
+volleyball O
 sia O
 
 I'll O
@@ -8824,8 +8824,8 @@ XD B-NP
 
 Hahaha O
 no B-NP
-no O
-now B-NP
+no I-NP
+now I-NP
 have! O
 As O
 in B-NP
@@ -8866,10 +8866,10 @@ the O
 pants O
 are B-NP
 just O
-like O
-really O
-short! O
-Like O
+like B-NP
+really I-NP
+short! B-NP
+Like B-NP
 not O
 evenshorts! B-NP
 
@@ -8892,8 +8892,8 @@ while O
 got B-NP
 security B-NP
 guard.lol.but O
-wan O
-shd O
+wan B-NP
+shd I-NP
 be O
 ok O
 oso. O
@@ -8939,14 +8939,14 @@ you O
 didn't O
 replythis O
 morning O
-! O
+! B-NP
 Hmm O
 I O
 rmb O
 I O
 was O
 typing B-NP
-sth O
+sth I-NP
 about O
 my O
 class B-NP
@@ -8968,9 +8968,9 @@ Dun O
 liddat B-NP
 le. O
 We O
-good B-NP
-frens I-NP
-le. I-NP
+good O
+frens O
+le. O
 I O
 gave O
 u O
@@ -8981,20 +8981,20 @@ Rem? I-NP
 
 Love I-NP
 u I-NP
-too I-NP
-Dar I-NP
+too O
+Dar B-NP
 
 Hi I-NP
 Ricky I-NP
-, O
-we O
+, I-NP
+we I-NP
 're O
 here. O
 Thanks O
 
-Wake O
-up O
-le!!! O
+Wake B-NP
+up I-NP
+le!!! I-NP
 
 Alright O
 good! O
@@ -9109,7 +9109,7 @@ le! O
 Hahaokay! O
 Whee^^ O
 oh O
-my O
+my B-NP
 little O
 pony O
 is O
@@ -9120,8 +9120,8 @@ show B-NP
 Never O
 watch B-NP
 before?Haha I-NP
-I I-NP
-dunno! O
+I O
+dunno! B-NP
 My O
 dad B-NP
 changes I-NP
@@ -9130,10 +9130,10 @@ when I-NP
 he O
 feels O
 like B-NP
-it I-NP
-, I-NP
-so I-NP
-maybechange O
+it O
+, O
+so O
+maybechange B-NP
 once O
 a B-NP
 year I-NP
@@ -9156,8 +9156,8 @@ to O
 finish O
 chionging O
 all O
-my O
-hw B-NP
+my B-NP
+hw I-NP
 asap O
 then O
 canrevise>< B-NP
@@ -9216,8 +9216,8 @@ later O
 goes. B-NP
 I O
 don't O
-exactly O
-have O
+exactly B-NP
+have I-NP
 logistics O
 for O
 staying O
@@ -9323,9 +9323,9 @@ you O
 can O
 find B-NP
 players I-NP
-. O
+. I-NP
 
-Is I-NP
+Is O
 the O
 labkey O
 wth O
@@ -9412,27 +9412,27 @@ hoping O
 to O
 hear O
 from O
-you B-NP
-soon I-NP
-next I-NP
-week. I-NP
-Also I-NP
+you O
+soon O
+next O
+week. O
+Also B-NP
 wouldyou I-NP
 let I-NP
 us O
 know O
-in O
-advance O
-which O
-law O
+in B-NP
+advance B-NP
+which I-NP
+law I-NP
 firm O
-ANZ B-NP
-would B-NP
+ANZ O
+would O
 have O
 us O
 use? O
 
-HAHA I-NP
+HAHA O
 I O
 DUN O
 THINK O
@@ -9450,8 +9450,8 @@ HAHAIDM O
 EITHER O
 AH! O
 
-So O
-later O
+So B-NP
+later I-NP
 got O
 meet O
 earlier? O
@@ -9468,8 +9468,8 @@ The I-NP
 Warren I-NP
 in I-NP
 about O
-an O
-hour O
+an B-NP
+hour B-NP
 ? O
 It's O
 ok O
@@ -9520,9 +9520,9 @@ listened O
 to O
 them. O
 
-Hahaha! O
-She O
-knows O
+Hahaha! B-NP
+She I-NP
+knows I-NP
 la.. O
 Lol! B-NP
 :) O
@@ -9543,7 +9543,7 @@ there O
 Lol O
 cheap O
 places O
-please. O
+please. B-NP
 I O
 mma B-NP
 low O
@@ -9558,8 +9558,8 @@ Not O
 for B-NP
 possession I-NP
 , O
-especially B-NP
-not B-NP
+especially O
+not O
 first O
 offense O
 
@@ -9780,7 +9780,7 @@ can't O
 you O
 see O
 my B-NP
-replies!! I-NP
+replies!! O
 
 it O
 s O
@@ -9801,9 +9801,9 @@ is I-NP
 I O
 'm O
 not B-NP
-ur O
-Christian O
-friends O
+ur I-NP
+Christian I-NP
+friends I-NP
 and O
 that O
 one O
@@ -9815,21 +9815,21 @@ But O
 then O
 I B-NP
 won't I-NP
-be B-NP
-able I-NP
-to I-NP
-love I-NP
+be O
+able O
+to O
+love O
 you O
 that O
 way O
-you O
-love O
+you B-NP
+love I-NP
 yourself O
 ! O
 
 Love O
-you O
-too O
+you B-NP
+too I-NP
 & O
 Sakshi O
 too, B-NP
@@ -10027,9 +10027,9 @@ know O
 you O
 are O
 kidding O
-coz O
-I O
-didn't! O
+coz B-NP
+I B-NP
+didn't! I-NP
 
 Oh O
 omg B-NP
@@ -10055,12 +10055,12 @@ huh? O
 The O
 proof B-NP
 is I-NP
-on O
-your O
-fb O
-page O
-. O
-Ugh O
+on I-NP
+your I-NP
+fb I-NP
+page I-NP
+. I-NP
+Ugh I-NP
 I O
 'm B-NP
 so O
@@ -10069,8 +10069,8 @@ I O
 really O
 DIDN'T O
 watch B-NP
-your I-NP
-rupaul O
+your O
+rupaul B-NP
 show O
 you O
 TOOL O
@@ -10157,7 +10157,7 @@ Alright O
 =/ O
 fuck O
 fuck O
-fuck O
+fuck B-NP
 
 We O
 can O
@@ -10191,9 +10191,9 @@ though O
 Tech B-NP
 svc I-NP
 
-Ooo B-NP
+Ooo I-NP
 icic! I-NP
-All I-NP
+All O
 the O
 best!!! O
 
@@ -10391,12 +10391,12 @@ you O
 this O
 morning B-NP
 when I-NP
-all I-NP
+all O
 i O
 really O
 wanted O
 to O
-say O
+say B-NP
 was O
 good O
 morning, O
@@ -10417,8 +10417,8 @@ library O
 later. B-NP
 
 night O
-! O
-Sleep O
+! B-NP
+Sleep B-NP
 tight O
 and O
 get B-NP
@@ -10478,8 +10478,8 @@ they O
 say O
 check O
 out O
-by O
-<#> O
+by B-NP
+<#> I-NP
 Oct! O
 Haha O
 I'm O
@@ -10493,9 +10493,9 @@ okay I-NP
 ((: O
 I'm O
 attending O
-it O
-now O
-~ O
+it B-NP
+now I-NP
+~ I-NP
 
 i O
 cannot O
@@ -10517,10 +10517,10 @@ do O
 time B-NP
 naha O
 raha O
-hun O
+hun B-NP
 
-I B-NP
-know. I-NP
+I O
+know. B-NP
 I I-NP
 'm O
 great. B-NP
@@ -10544,8 +10544,8 @@ endorse O
 bah! O
 
 Hey O
-today O
-after B-NP
+today B-NP
+after I-NP
 <#> O
 pm B-NP
 free O
@@ -10625,7 +10625,7 @@ show O
 why B-NP
 there O
 any O
-dispute O
+dispute B-NP
 to O
 make O
 it O
@@ -10666,15 +10666,15 @@ bathe I-NP
 now, O
 finally O
 grandma B-NP
-cane O
-out O
-of O
+cane I-NP
+out I-NP
+of I-NP
 toilet B-NP
 ! B-NP
 
 Opps I-NP
-press O
-wrong. O
+press I-NP
+wrong. I-NP
 U O
 so O
 poor O
@@ -10743,8 +10743,8 @@ go O
 though O
 ^^ B-NP
 I'm I-NP
-just O
-waitingfor B-NP
+just I-NP
+waitingfor I-NP
 my I-NP
 mom O
 to O
@@ -10760,17 +10760,17 @@ The O
 dum B-NP
 dum I-NP
 train I-NP
-6 O
-min B-NP
-den O
+6 I-NP
+min I-NP
+den I-NP
 come O
 
 Hahaha. O
 Okok. O
 Set! O
 
-Ha O
-i B-NP
+Ha I-NP
+i I-NP
 can O
 take O
 bus O
@@ -10808,8 +10808,8 @@ i O
 m O
 leo O
 . B-NP
-I O
-have O
+I I-NP
+have I-NP
 nothing O
 to O
 do O
@@ -10861,11 +10861,11 @@ alr O
 now B-NP
 my I-NP
 stomach I-NP
-churnin O
+churnin I-NP
 g. O
 
-Girl.. O
-what O
+Girl.. I-NP
+what I-NP
 u O
 thinking O
 of? O
@@ -10913,8 +10913,8 @@ I B-NP
 need I-NP
 you I-NP
 to O
-call O
-up O
+call B-NP
+up I-NP
 the O
 schools O
 again O
@@ -10950,12 +10950,12 @@ ukelele B-NP
 :P O
 orh^^ B-NP
 you I-NP
-find O
-a O
+find I-NP
+a I-NP
 nice O
-blazer O
-too!! O
-Yay, B-NP
+blazer B-NP
+too!! B-NP
+Yay, O
 Ilike O
 to O
 see O
@@ -10988,8 +10988,8 @@ eh O
 Hey I-NP
 later I-NP
 collect I-NP
-frm O
-dryer B-NP
+frm I-NP
+dryer I-NP
 
 Mah O
 b, O
@@ -11024,13 +11024,13 @@ MAKE O
 A O
 BETTERFEEDBACK B-NP
 SYSTEM B-NP
-AND I-NP
-BETTER I-NP
+AND O
+BETTER B-NP
 EVENTS I-NP
 !!!!!!!!! I-NP
 
 And B-NP
-I I-NP
+I O
 don't O
 plan O
 on O
@@ -11105,8 +11105,8 @@ haha O
 ur O
 mum B-NP
 how I-NP
-come I-NP
-every O
+come O
+every B-NP
 Tue O
 cook O
 hao B-NP
@@ -11126,7 +11126,7 @@ can O
 stillview O
 member O
 queue B-NP
-. O
+. I-NP
 
 Ah O
 then O
@@ -11193,8 +11193,8 @@ its B-NP
 awesome, O
 but O
 must O
-pick B-NP
-active B-NP
+pick O
+active O
 de O
 
 1) O
@@ -11249,7 +11249,7 @@ havent O
 become O
 a B-NP
 boss O
-dey. O
+dey. B-NP
 
 Lol O
 she O
@@ -11375,7 +11375,7 @@ Pk O
 I O
 went O
 home O
-le, B-NP
+le, O
 felt O
 feverish. O
 Msg O
@@ -11384,18 +11384,18 @@ the B-NP
 changes O
 for O
 my O
-stuff, O
+stuff, B-NP
 if O
 any. O
 
 Dunno B-NP
 leh. I-NP
 Oh O
-omg O
-do O
+omg B-NP
+do I-NP
 you O
 have B-NP
-my I-NP
+my O
 erasers O
 ? O
 
@@ -11455,13 +11455,13 @@ getting O
 a O
 router O
 sent O
-from O
+from B-NP
 Amazon O
 with O
 prime B-NP
 
-Uh O
-hey O
+Uh I-NP
+hey I-NP
 love O
 lol O
 
@@ -11562,12 +11562,12 @@ and B-NP
 everything I-NP
 :-) O
 
-Think O
+Think B-NP
 you O
 sent B-NP
 the I-NP
 text O
-to O
+to B-NP
 the O
 home O
 phone O
@@ -11581,8 +11581,8 @@ you B-NP
 still I-NP
 want I-NP
 to I-NP
-send O
-it B-NP
+send I-NP
+it I-NP
 his I-NP
 number I-NP
 is I-NP
@@ -11776,7 +11776,7 @@ Time O
 up B-NP
 
 Hmmmmm B-NP
-haha I-NP
+haha O
 need O
 to O
 see O
@@ -11794,7 +11794,7 @@ can. O
 No O
 he O
 is O
-stupid O
+stupid B-NP
 da..always O
 sending O
 like O
@@ -11823,8 +11823,8 @@ coming O
 back? O
 
 No O
-lah O
-I O
+lah B-NP
+I I-NP
 'm O
 at O
 camp O
@@ -11907,9 +11907,9 @@ I I-NP
 can I-NP
 do I-NP
 this I-NP
-only O
-probably O
-coz B-NP
+only I-NP
+probably I-NP
+coz O
 i'm O
 virtually O
 tired O
@@ -12068,7 +12068,7 @@ be O
 right B-NP
 down O
 
-Hahaha! O
+Hahaha! B-NP
 That O
 would O
 be O
@@ -12139,8 +12139,8 @@ day O
 Haha O
 ohh B-NP
 ps! O
-Sorry!! B-NP
-Haha B-NP
+Sorry!! O
+Haha O
 I O
 also O
 forgot O
@@ -12188,8 +12188,8 @@ i'm O
 too O
 noob O
 le O
-oh O
-no O
+oh B-NP
+no B-NP
 how O
 why O
 am O
@@ -12218,11 +12218,11 @@ and O
 aunt O
 and O
 uncle O
-haha. O
+haha. B-NP
 Super O
 full O
-now O
-leh. O
+now B-NP
+leh. I-NP
 
 <EMAIL> O
 confirm B-NP
@@ -12258,7 +12258,7 @@ Ah? O
 Haha O
 I O
 think O
-okay O
+okay B-NP
 already. O
 
 Yeah.. O
@@ -12300,7 +12300,7 @@ me O
 earlier B-NP
 . O
 
-Aw,go O
+Aw,go I-NP
 watch O
 with O
 someone O
@@ -12315,7 +12315,7 @@ Hee. O
 Sis O
 gt O
 tuition O
-at O
+at B-NP
 ys O
 tmr B-NP
 
@@ -12346,11 +12346,11 @@ I O
 talked B-NP
 to O
 at O
-the O
-sc O
+the B-NP
+sc I-NP
 room O
-say B-NP
-Friday I-NP
+say O
+Friday B-NP
 after I-NP
 concert O
 play B-NP
@@ -12359,16 +12359,16 @@ sparklers I-NP
 Hahaha O
 omg!!!! B-NP
 I I-NP
-wantalso~~~ I-NP
+wantalso~~~ O
 
 haha O
 ok O
 anyway O
 in O
 total O
-got O
-6 O
-diff B-NP
+got B-NP
+6 B-NP
+diff I-NP
 clouds I-NP
 the O
 <#> O
@@ -12388,7 +12388,7 @@ ask O
 later B-NP
 wan I-NP
 fetch O
-or O
+or B-NP
 not O
 
 Guess O
@@ -12434,7 +12434,7 @@ at B-NP
 pm B-NP
 ? I-NP
 Coz I-NP
-I O
+I I-NP
 arranged O
 something B-NP
 on O
@@ -12458,12 +12458,12 @@ Yar I-NP
 lor. I-NP
 That's I-NP
 y I-NP
-a I-NP
+a O
 bit O
 ma O
 n B-NP
 . I-NP
-I I-NP
+I O
 think O
 abt O
 p O
@@ -12528,7 +12528,7 @@ sorry B-NP
 i O
 got O
 something O
-like O
+like B-NP
 comment O
 on O
 the O
@@ -12547,9 +12547,9 @@ at O
 afax O
 orsomething O
 
-I O
+I I-NP
 'm O
-free O
+free B-NP
 already. O
 
 Yo O
@@ -12668,8 +12668,8 @@ that O
 means O
 you O
 still O
-think O
-of B-NP
+think B-NP
+of I-NP
 teju I-NP
 
 Ohh I-NP
@@ -12802,9 +12802,9 @@ after O
 sch! O
 Not O
 too O
-sure O
-when O
-my O
+sure B-NP
+when I-NP
+my I-NP
 mumstopped O
 working O
 hehe:P O
@@ -12854,24 +12854,24 @@ xy O
 i O
 give O
 robert O
-ur O
-hp O
-k? B-NP
-he I-NP
-uploaded I-NP
+ur B-NP
+hp B-NP
+k? I-NP
+he O
+uploaded B-NP
 the I-NP
 document I-NP
 for I-NP
 use I-NP
-case I-NP
-.go I-NP
-take I-NP
-a I-NP
-look I-NP
+case O
+.go B-NP
+take O
+a O
+look O
 
 We O
-’re O
-in O
+’re B-NP
+in I-NP
 the O
 heart O
 of O
@@ -13017,8 +13017,8 @@ to B-NP
 soak O
 up B-NP
 with I-NP
-news O
-paper B-NP
+news I-NP
+paper O
 and O
 put O
 in O
@@ -13080,7 +13080,7 @@ the O
 bus B-NP
 interchange O
 , O
-home O
+home B-NP
 le! O
 (: O
 
@@ -13104,7 +13104,7 @@ dun O
 think B-NP
 I I-NP
 need I-NP
-it O
+it I-NP
 thanks! O
 I O
 only O
@@ -13132,7 +13132,7 @@ cant O
 confirm O
 hahahaha O
 
-Haha O
+Haha I-NP
 okay O
 (: O
 see O
@@ -13212,9 +13212,9 @@ comp I-NP
 le O
 
 Which I-NP
-is O
-weird O
-because O
+is I-NP
+weird I-NP
+because I-NP
 I O
 know O
 I O
@@ -13393,7 +13393,7 @@ HAMCAKE O
 Joke O
 la O
 i O
-mma O
+mma B-NP
 back O
 
 Lol O
@@ -13452,18 +13452,18 @@ Would O
 you O
 be B-NP
 able O
-to O
-make O
+to B-NP
+make B-NP
 it O
 on O
 the O
 <#> O
 th O
 Wednesday O
-? O
-We O
-could O
-meet O
+? B-NP
+We I-NP
+could I-NP
+meet I-NP
 with O
 you O
 anytime O
@@ -13543,8 +13543,8 @@ willingly O
 getting O
 his O
 hair B-NP
-cut I-NP
-right O
+cut O
+right B-NP
 now O
 =D O
 
@@ -13559,7 +13559,7 @@ I O
 don't O
 get O
 it! O
-XD O
+XD B-NP
 
 Hi O
 Tamisa, O
@@ -13570,11 +13570,11 @@ with O
 your O
 visa O
 issues. O
-See O
-you O
+See B-NP
+you I-NP
 on O
 Friday O
-at B-NP
+at O
 1pm? O
 
 Ok!!! O
@@ -13628,10 +13628,10 @@ work? O
 I O
 wish! O
 I O
-don't O
-think O
-its O
-gonna B-NP
+don't B-NP
+think I-NP
+its I-NP
+gonna I-NP
 snow I-NP
 that I-NP
 much. O
@@ -13648,8 +13648,8 @@ usually I-NP
 get I-NP
 that I-NP
 melt I-NP
-before O
-they O
+before I-NP
+they I-NP
 hit O
 the O
 ground. B-NP
@@ -13677,7 +13677,7 @@ gl O
 ! B-NP
 :D O
 
-Seriously! B-NP
+Seriously! O
 But O
 it O
 'll B-NP
@@ -13742,7 +13742,7 @@ get O
 home O
 alright? O
 
-Sorry--don't B-NP
+Sorry--don't I-NP
 mean I-NP
 to I-NP
 blow I-NP
@@ -13836,14 +13836,14 @@ you O
 some O
 money B-NP
 towards O
-your O
+your B-NP
 net O
 ? B-NP
 I O
 need O
 you B-NP
-... O
-I O
+... I-NP
+I I-NP
 want O
 you O
 ... O
@@ -13922,11 +13922,11 @@ JIN O
 TU B-NP
 NIAN O
 CI O
-AN B-NP
-CHUAN I-NP
-BEI I-NP
-PI I-NP
-PA I-NP
+AN O
+CHUAN O
+BEI O
+PI O
+PA O
 GAO O
 FOR B-NP
 COUGH B-NP
@@ -13947,18 +13947,18 @@ Oh O
 right O
 I O
 wanted O
-to O
-say O
+to B-NP
+say I-NP
 my O
-knees O
-damn O
-pain! B-NP
+knees B-NP
+damn I-NP
+pain! I-NP
 
 Wait O
 for B-NP
 him O
-reply O
-lo. O
+reply B-NP
+lo. B-NP
 BTW O
 I O
 tis O
@@ -14057,7 +14057,7 @@ food B-NP
 
 Ok O
 try O
-my O
+my B-NP
 best O
 
 Lol O
@@ -14081,8 +14081,8 @@ is I-NP
 that O
 ? B-NP
 
-Busy O
-bee! B-NP
+Busy B-NP
+bee! I-NP
 Both I-NP
 is I-NP
 fine I-NP
@@ -14095,15 +14095,15 @@ meeting O
 your O
 proflor! B-NP
 Let I-NP
-us O
-know B-NP
+us I-NP
+know O
 :) O
 
 Home I-NP
-le O
-wir B-NP
+le I-NP
+wir O
 
-Nope I-NP
+Nope O
 why? O
 
 i O
@@ -14226,9 +14226,9 @@ to B-NP
 top I-NP
 up O
 insurancebefore O
-I O
-can O
-pay B-NP
+I B-NP
+can I-NP
+pay I-NP
 road O
 tax. B-NP
 Going I-NP
@@ -14290,7 +14290,7 @@ taking O
 FOREVER B-NP
 to B-NP
 bring I-NP
-my I-NP
+my O
 pain O
 meds. O
 I B-NP
@@ -14340,7 +14340,7 @@ just O
 reachedhome! O
 Can O
 call O
-if O
+if B-NP
 you O
 want, B-NP
 i' I-NP
@@ -14351,8 +14351,8 @@ is O
 it O
 free B-NP
 for I-NP
-you O
-receive O
+you I-NP
+receive I-NP
 mms O
 ?? O
 
@@ -14370,7 +14370,7 @@ the O
 worst O
 =( B-NP
 
-Crim O
+Crim B-NP
 mind O
 hahs O
 now O
@@ -14395,14 +14395,14 @@ one I-NP
 of I-NP
 the I-NP
 kappa I-NP
-guys O
-numbers O
+guys B-NP
+numbers B-NP
 is O
 still O
 on O
 my B-NP
-phone O
-, B-NP
+phone I-NP
+, I-NP
 if O
 you O
 want O
@@ -14420,8 +14420,8 @@ around O
 Same. B-NP
 Let B-NP
 the I-NP
-hunt O
-being O
+hunt B-NP
+being B-NP
 
 We O
 tried O
@@ -14430,7 +14430,7 @@ but O
 no O
 place O
 without O
-wind O
+wind B-NP
 . O
 <#> O
 teams O
@@ -14505,8 +14505,8 @@ theright O
 (: B-NP
 (: B-NP
 go I-NP
-home O
-safe! O
+home I-NP
+safe! I-NP
 I O
 said O
 yo O
@@ -14535,18 +14535,18 @@ dao O
 so O
 late O
 reply. O
-Hmm O
+Hmm B-NP
 jus O
 wanna O
 ask O
 if B-NP
 odac I-NP
 going I-NP
-kinabalu I-NP
-parents I-NP
-nid I-NP
-plan I-NP
-holidays I-NP
+kinabalu O
+parents O
+nid O
+plan O
+holidays O
 
 Daddy O
 buy O
@@ -14604,9 +14604,9 @@ then O
 . B-NP
 
 Ooo O
-got B-NP
-d?? B-NP
-*tag-error* I-NP
+got O
+d?? O
+*tag-error* B-NP
 So I-NP
 ol! O
 Haha B-NP
@@ -14627,7 +14627,7 @@ study! O
 Slap O
 how O
 can B-NP
-you I-NP
+you O
 say O
 that O
 ~ O
@@ -14659,7 +14659,7 @@ family I-NP
 Fk O
 *tag-error* O
 I O
-no O
+no B-NP
 luc O
 k, B-NP
 I I-NP
@@ -14688,12 +14688,12 @@ as O
 in O
 nus. O
 
-Ok! O
+Ok! B-NP
 I O
-take O
-winter O
-melon O
-at O
+take B-NP
+winter I-NP
+melon I-NP
+at I-NP
 home. O
 Weihao O
 reached O
@@ -14722,17 +14722,17 @@ Ya O
 no O
 later O
 going O
-out O
-eat. O
+out B-NP
+eat. I-NP
 
 Well O
 I O
 think.. O
 except O
-I O
-feel O
-asleep O
-once O
+I B-NP
+feel I-NP
+asleep I-NP
+once I-NP
 I O
 got B-NP
 home O
@@ -14775,9 +14775,9 @@ rina O
 promenade, O
 *tag-error* O
 st O
-min O
-g O
-ot B-NP
+min B-NP
+g I-NP
+ot I-NP
 n. I-NP
 
 S I-NP
@@ -14785,7 +14785,7 @@ S I-NP
 e I-NP
 
 As O
-in, O
+in, B-NP
 my O
 brother O
 schoo O
@@ -14793,14 +14793,14 @@ l O
 got B-NP
 open I-NP
 house I-NP
-parents I-NP
+parents O
 going O
 can B-NP
 drop I-NP
 on O
 the O
-way O
-lol O
+way B-NP
+lol I-NP
 
 6. O
 Going O
@@ -14829,9 +14829,9 @@ screen I-NP
 all I-NP
 else I-NP
 I I-NP
-do O
-at O
-fast B-NP
+do I-NP
+at I-NP
+fast O
 speed O
 *tag-error* O
 already. O
@@ -14856,11 +14856,11 @@ spinner B-NP
 for I-NP
 csk. I-NP
 
-Haha O
+Haha I-NP
 yeah O
-only B-NP
-3 I-NP
-of I-NP
+only O
+3 O
+of O
 us! O
 The O
 rest B-NP
@@ -14879,8 +14879,8 @@ can O
 stamp O
 the O
 park O
-passports!! B-NP
-Emo): I-NP
+passports!! O
+Emo): B-NP
 haha I-NP
 go I-NP
 sleeplah!! I-NP
@@ -14889,8 +14889,8 @@ here O
 not B-NP
 the I-NP
 west, O
-less O
-kurohito! O
+less B-NP
+kurohito! I-NP
 Haha! O
 
 Whoa B-NP
@@ -14903,8 +14903,8 @@ gonna O
 bathe O
 first. B-NP
 
-Nice! I-NP
-For I-NP
+Nice! O
+For B-NP
 mairin's I-NP
 play O
 ? O
@@ -15029,8 +15029,8 @@ why O
 i O
 said O
 dsta B-NP
-she O
-heard O
+she I-NP
+heard I-NP
 dsa O
 took B-NP
 a O
@@ -15156,8 +15156,8 @@ lol O
 
 Then O
 u B-NP
-finish O
-supper O
+finish I-NP
+supper I-NP
 never O
 call O
 back O
@@ -15212,8 +15212,8 @@ year O
 3 O
 stuff O
 to B-NP
-answer O
-hahaha! B-NP
+answer I-NP
+hahaha! O
 Wow O
 super O
 pro! O
@@ -15264,7 +15264,7 @@ photo B-NP
 of O
 you O
 withgraduation B-NP
-gown. I-NP
+gown. O
 
 Dont O
 know O
@@ -15274,16 +15274,16 @@ She O
 end I-NP
 class I-NP
 and I-NP
-probably O
-would O
-go O
-out. O
+probably I-NP
+would I-NP
+go I-NP
+out. I-NP
 
-Haha B-NP
-better O
+Haha O
+better B-NP
 late O
-than O
-ever, O
+than B-NP
+ever, I-NP
 any O
 way O
 I O
@@ -15301,7 +15301,7 @@ out O
 that O
 the O
 deadline O
-for O
+for B-NP
 submission O
 next O
 Thursday O
@@ -15399,9 +15399,9 @@ Keep B-NP
 extra O
 warm. O
 It O
-s O
-a O
-cold O
+s B-NP
+a I-NP
+cold I-NP
 but O
 nothing B-NP
 serious O
@@ -15435,8 +15435,8 @@ to O
 pm O
 . O
 Probably B-NP
-I O
-meet B-NP
+I I-NP
+meet I-NP
 you I-NP
 at I-NP
 1pm O
@@ -15504,22 +15504,22 @@ shall O
 meet O
 you O
 in O
-your O
-dreams O
-, O
-Ahmad O
-... O
-adoring O
-kiss O
-* B-NP
+your B-NP
+dreams I-NP
+, I-NP
+Ahmad I-NP
+... I-NP
+adoring B-NP
+kiss B-NP
+* I-NP
 
 Haha O
 yeah): O
 ha O
 ha O
 yay!! O
-Um B-NP
-'m B-NP
+Um O
+'m O
 *tag-error* O
 the B-NP
 ne O
@@ -15554,7 +15554,7 @@ JIO B-NP
 YOU I-NP
 NOW! O
 
-Ya O
+Ya B-NP
 refer O
 totally O
 everything B-NP
@@ -15574,7 +15574,7 @@ thks! O
 
 Good O
 morning O
-sweety O
+sweety B-NP
 my O
 bundle O
 of O
@@ -15649,7 +15649,7 @@ some I-NP
 rest O
 . O
 
-Ohh O
+Ohh I-NP
 should O
 be O
 ok! O
@@ -15693,8 +15693,8 @@ by O
 tmr, B-NP
 then I-NP
 I'll I-NP
-go! I-NP
-Let O
+go! O
+Let B-NP
 youknow O
 tmr O
 morning!! O
@@ -15739,15 +15739,15 @@ warranty O
 bah O
 XD B-NP
 
-Hahaha O
+Hahaha I-NP
 sorry! B-NP
 Tell I-NP
 your O
 bro O
 all O
 the O
-best:D O
-in O
+best:D B-NP
+in I-NP
 past O
 tense O
 if O
@@ -15781,8 +15781,8 @@ I B-NP
 shall O
 wait O
 for O
-casino B-NP
-de I-NP
+casino O
+de B-NP
 Jeremy I-NP
 to I-NP
 openthen O
@@ -15851,7 +15851,7 @@ even B-NP
 inform O
 people O
 that B-NP
-there I-NP
+there O
 will O
 be B-NP
 this O
@@ -15898,8 +15898,8 @@ for O
 him O
 later. O
 
-LOL O
-HAHA O
+LOL B-NP
+HAHA B-NP
 CHANGE O
 NOW? O
 I O
@@ -16134,9 +16134,9 @@ o O
 f O
 inish O
 o O
-night O
->< O
-LOLso B-NP
+night B-NP
+>< B-NP
+LOLso I-NP
 he I-NP
 didn't O
 see O
@@ -16171,8 +16171,8 @@ out B-NP
 then O
 he O
 do B-NP
-only O
-mine B-NP
+only I-NP
+mine O
 come O
 out. B-NP
 Zzz. I-NP
@@ -16182,8 +16182,8 @@ turning B-NP
 on. I-NP
 Verylag. I-NP
 Haha I-NP
-are O
-you B-NP
+are I-NP
+you I-NP
 sleeping? I-NP
 
 Good O
@@ -16199,7 +16199,7 @@ your O
 absence O
 for O
 today's B-NP
-assembly I-NP
+assembly O
 . O
 
 nobody O
@@ -16225,7 +16225,7 @@ just O
 woke B-NP
 up... I-NP
 dunno O
-leh O
+leh B-NP
 like O
 so O
 little B-NP
@@ -16233,13 +16233,13 @@ pple I-NP
 reply O
 -.- O
 
-Where O
+Where I-NP
 they? O
 
-Eh O
-just O
-4 O
-days O
+Eh B-NP
+just B-NP
+4 B-NP
+days I-NP
 stuff O
 lo. O
 Please O
@@ -16260,16 +16260,16 @@ for O
 games O
 . O
 
-Huh I-NP
-what I-NP
+Huh O
+what O
 
 Unlikely. O
 As B-NP
 usual I-NP
 just I-NP
 me I-NP
-and O
-eugene, B-NP
+and I-NP
+eugene, I-NP
 if I-NP
 anyone O
 can O
@@ -16305,15 +16305,15 @@ a2 O
 . O
 Back O
 le O
-do O
-for O
-u O
-. O
-Borrowing O
-chem O
-text O
-book O
-from B-NP
+do B-NP
+for B-NP
+u I-NP
+. I-NP
+Borrowing I-NP
+chem I-NP
+text I-NP
+book I-NP
+from I-NP
 my I-NP
 ta O
 so B-NP
@@ -16330,8 +16330,8 @@ ytd. O
 Haha O
 if O
 I O
-say O
-i'm O
+say B-NP
+i'm I-NP
 not O
 will B-NP
 you O
@@ -16379,8 +16379,8 @@ sms O
 ._. O
 
 As I-NP
-in O
-can O
+in B-NP
+can B-NP
 put O
 as B-NP
 x=(x^2+1)/y O
@@ -16414,37 +16414,37 @@ oh. O
 Jiu O
 bo O
 bian, O
-go O
-simlim B-NP
+go B-NP
+simlim I-NP
 buy I-NP
 eh. I-NP
 
 Then O
-after O
-that O
-? O
-We O
+after B-NP
+that I-NP
+? I-NP
+We I-NP
 move O
 again O
 ah? O
 
 Sorry O
-unable O
-to B-NP
+unable B-NP
+to I-NP
 attend O
 your B-NP
 home I-NP
-. O
+. I-NP
 
-oo.. O
+oo.. I-NP
 is O
 nt O
 uaeful B-NP
-or I-NP
+or O
 u B-NP
 dunno B-NP
-hw O
-to B-NP
+hw I-NP
+to I-NP
 do I-NP
 
 Mr I-NP
@@ -16501,10 +16501,10 @@ kayaking O
 le O
 ^^ O
 
-Its O
-imp B-NP
+Its I-NP
+imp O
 
-I I-NP
+I O
 tot B-NP
 u B-NP
 were O
@@ -16532,9 +16532,9 @@ to O
 do O
 one O
 of O
-the O
-biochem O
-exam O
+the B-NP
+biochem I-NP
+exam I-NP
 questions O
 omg! O
 HahahaOMG O
@@ -16583,7 +16583,7 @@ good! B-NP
 I O
 suppose O
 you O
-are O
+are B-NP
 dead O
 to O
 the B-NP
@@ -16611,10 +16611,10 @@ later O
 
 Holidaesoborlin. O
 I O
-offed O
-comp O
+offed B-NP
+comp I-NP
 
-Yo B-NP
+Yo I-NP
 sat I-NP
 is O
 pposedly B-NP
@@ -16634,7 +16634,7 @@ tell B-NP
 him I-NP
 earlier O
 can? O
-<#> B-NP
+<#> O
 ? O
 Where O
 r B-NP
@@ -16655,7 +16655,7 @@ I O
 will B-NP
 do O
 at O
-night O
+night B-NP
 anyway O
 even O
 if B-NP
@@ -16717,9 +16717,9 @@ u O
 ! O
 
 Haha O
-yeah O
-my O
-teacher O
+yeah B-NP
+my B-NP
+teacher I-NP
 said O
 he B-NP
 wanted O
@@ -16736,7 +16736,7 @@ like O
 k B-NP
 sing O
 dollars O
-. O
+. B-NP
 Had O
 your O
 dinner O
@@ -16752,7 +16752,7 @@ For O
 whatever O
 reason B-NP
 I I-NP
-cant O
+cant I-NP
 get O
 the<DECIMAL> O
 in O
@@ -16793,8 +16793,8 @@ row O
 be B-NP
 prepared O
 to O
-activate O
-anytime O
+activate B-NP
+anytime B-NP
 
 Episode O
 7 O
@@ -16960,7 +16960,7 @@ server. O
 Thanks O
 dude B-NP
 ! I-NP
-And O
+And I-NP
 Congrats O
 maybe? O
 Haha B-NP
@@ -16983,12 +16983,12 @@ you B-NP
 were O
 with O
 your O
-friends B-NP
-...*grins*... I-NP
+friends O
+...*grins*... B-NP
 Reminding I-NP
 you I-NP
 were I-NP
-loved I-NP
+loved O
 and O
 send B-NP
 a O
@@ -17004,22 +17004,22 @@ then O
 rest O
 abit, O
 then O
-go O
-do O
-ur O
+go B-NP
+do I-NP
+ur I-NP
 dong O
 dong B-NP
 .. O
 slp O
 early O
 today O
-! O
+! B-NP
 
 Dun O
 understand O
 ur O
-sentence B-NP
-lol... I-NP
+sentence O
+lol... O
 p O
 y O
 haha... O
@@ -17072,8 +17072,8 @@ Kk B-NP
 OKAY I-NP
 GOODNIGHT O
 
-Dear O
-I O
+Dear I-NP
+I I-NP
 'm O
 coming.... O
 hee. O
@@ -17168,9 +17168,9 @@ back O
 already O
 ah B-NP
 
-Haha I-NP
-np I-NP
-np I-NP
+Haha O
+np O
+np O
 (: O
 thanks! O
 
@@ -17200,10 +17200,10 @@ mrt I-NP
 stn I-NP
 .. O
 
-I'm I-NP
-fine, I-NP
-how I-NP
-are I-NP
+I'm O
+fine, O
+how O
+are O
 you? O
 Love O
 you O
@@ -17240,14 +17240,14 @@ was B-NP
 awesome O
 but O
 don't B-NP
-make O
-it B-NP
+make I-NP
+it O
 regular O
 unless O
 you O
 can O
-see O
-her O
+see B-NP
+her I-NP
 in O
 person O
 
@@ -17255,7 +17255,7 @@ Hahahaha O
 yupp O
 
 Hahaha I-NP
-omg I-NP
+omg O
 so O
 epic! O
 Okay O
@@ -17374,10 +17374,10 @@ we O
 can O
 talk O
 about B-NP
-it O
+it I-NP
 
-Ooo O
-okay! O
+Ooo I-NP
+okay! I-NP
 But O
 I B-NP
 thought I-NP
@@ -17444,10 +17444,10 @@ hope O
 I O
 will O
 recover O
-tmr O
-(: O
-I O
-cough B-NP
+tmr B-NP
+(: I-NP
+I I-NP
+cough I-NP
 medicine O
 ! B-NP
 Haha I-NP
@@ -17654,7 +17654,7 @@ you O
 soon B-NP
 <3 I-NP
 
-Is O
+Is I-NP
 there B-NP
 study I-NP
 time I-NP
@@ -17776,16 +17776,16 @@ that B-NP
 I O
 came O
 to O
-just O
-now! O
-Faint O
-haha!Eating B-NP
+just B-NP
+now! I-NP
+Faint I-NP
+haha!Eating O
 roti O
 prata! O
 
 Uhh O
-what O
-type O
+what B-NP
+type I-NP
 of O
 relays O
 + O
@@ -17806,7 +17806,7 @@ shirt O
 . B-NP
 Mann O
 you O
-funky. O
+funky. B-NP
 
 O O
 i O
@@ -17849,7 +17849,7 @@ a O
 bunch O
 of O
 lotto B-NP
-tickets. I-NP
+tickets. O
 If O
 we O
 win O
@@ -17865,8 +17865,8 @@ Deal? O
 
 Ben O
 and O
-i O
-Shld B-NP
+i B-NP
+Shld I-NP
 be I-NP
 gg I-NP
 to O
@@ -17876,8 +17876,8 @@ u O
 all O
 celebrating? B-NP
 
-She O
-free?? O
+She I-NP
+free?? I-NP
 
 Yeah O
 i O
@@ -17950,8 +17950,8 @@ What I-NP
 unstable?? O
 Hahaha O
 yes O
-i O
-'m O
+i B-NP
+'m I-NP
 lazy O
 now:D B-NP
 hmm??Help I-NP
@@ -18031,27 +18031,27 @@ end. B-NP
 But I-NP
 shdcan I-NP
 
-Haha I-NP
-meet I-NP
+Haha O
+meet B-NP
 you I-NP
 at I-NP
-shangri-la I-NP
+shangri-la O
 hotel! O
 
 Lol O
-tell B-NP
-me I-NP
-the I-NP
-results I-NP
+tell O
+me O
+the O
+results O
 
-i O
+i B-NP
 dunno O
 leh. B-NP
 u I-NP
 just I-NP
 come O
-back, O
-du, B-NP
+back, B-NP
+du, I-NP
 care I-NP
 abt I-NP
 the O
@@ -18059,8 +18059,8 @@ charges O
 
 Go O
 back O
-hostel O
-1st O
+hostel B-NP
+1st B-NP
 
 Where B-NP
 do I-NP
@@ -18156,9 +18156,9 @@ title B-NP
 ! O
 Omg B-NP
 damn O
-cute O
-ah B-NP
-the O
+cute B-NP
+ah I-NP
+the I-NP
 <#> O
 yearsanniversary B-NP
 of O
@@ -18170,7 +18170,7 @@ guy O
 cut O
 their B-NP
 lung B-NP
-xray I-NP
+xray O
 scans O
 half O
 and O
@@ -18178,9 +18178,9 @@ stitch B-NP
 together I-NP
 hahaha!! I-NP
 Need I-NP
-to B-NP
-do B-NP
-reflections O
+to O
+do O
+reflections B-NP
 ! O
 
 Lol O
@@ -18192,8 +18192,8 @@ Haha O
 Genius O
 what O
 's O
-up. O
-How B-NP
+up. B-NP
+How I-NP
 your I-NP
 brother I-NP
 . O
@@ -18293,14 +18293,14 @@ cant O
 treat O
 me O
 like O
-that B-NP
-right.. I-NP
-Oh I-NP
+that O
+right.. O
+Oh O
 well O
-nothing O
-I O
-can O
-say B-NP
+nothing B-NP
+I I-NP
+can I-NP
+say I-NP
 anyway. I-NP
 
 Whaaaatttt O
@@ -18542,8 +18542,8 @@ home O
 after O
 today? O
 
-Definitely. I-NP
-I I-NP
+Definitely. O
+I O
 made B-NP
 you B-NP
 read O
@@ -18573,12 +18573,12 @@ Haha O
 okay! O
 Wednesday B-NP
 <DECIMAL> O
-pm O
-show O
+pm B-NP
+show I-NP
 at O
 the O
-cathay B-NP
-. I-NP
+cathay O
+. O
 Heh O
 meet O
 upfor O
@@ -18651,9 +18651,9 @@ Noooooo O
 whhhyyy O
 
 The O
-<#> O
-g O
-that B-NP
+<#> B-NP
+g I-NP
+that I-NP
 i O
 saw O
 a O
@@ -18683,9 +18683,9 @@ blanked O
 him B-NP
 . I-NP
 
-Eh O
-wan O
-fight O
+Eh I-NP
+wan I-NP
+fight I-NP
 izzit? O
 One O
 on O
@@ -18713,14 +18713,14 @@ go O
 charge O
 phone O
 first O
-k? O
-Muggggggs O
+k? B-NP
+Muggggggs I-NP
 
 Whoa O
 so O
 many O
 ah. B-NP
-No I-NP
+No O
 green O
 shrimps O
 ahh B-NP
@@ -18745,12 +18745,12 @@ candidate O
 key O
 liao O
 then O
-wont B-NP
+wont O
 stress O
 meh? O
 
-Shaohao O
-sohjie B-NP
+Shaohao B-NP
+sohjie O
 edwin O
 me O
 and O
@@ -18770,11 +18770,11 @@ coming O
 Tue O
 so O
 I O
-will O
-needto O
-meet B-NP
-up I-NP
-wif I-NP
+will B-NP
+needto B-NP
+meet O
+up O
+wif B-NP
 my I-NP
 project I-NP
 mates O
@@ -18847,7 +18847,7 @@ b O
 self O
 reliant O
 soon B-NP
-dnt I-NP
+dnt O
 worry O
 
 I I-NP
@@ -18941,8 +18941,8 @@ some O
 time. B-NP
 
 Hhaha O
-yeah. O
-I O
+yeah. B-NP
+I B-NP
 think O
 it's O
 sch O
@@ -19137,7 +19137,7 @@ Shldnt O
 be O
 far O
 off O
-la. O
+la. B-NP
 
 Haha O
 np O
@@ -19171,7 +19171,7 @@ doing O
 there O
 lol. O
 
-Oh I-NP
+Oh O
 there O
 ah. O
 See O
@@ -19204,7 +19204,7 @@ I O
 got O
 your O
 forms. O
-Thanks. O
+Thanks. B-NP
 I'm O
 heading O
 out B-NP
@@ -19235,8 +19235,8 @@ thought I-NP
 sth I-NP
 was I-NP
 off! O
-Still O
-eating!!! O
+Still B-NP
+eating!!! I-NP
 
 Yeeeah! O
 Pursue O
@@ -19254,9 +19254,9 @@ i O
 need O
 to O
 kope O
-the O
-raw O
-values O
+the B-NP
+raw I-NP
+values I-NP
 tmr O
 
 Hey O
@@ -19265,10 +19265,10 @@ u O
 got O
 the O
 guidelines O
-? O
+? B-NP
 
-Yea O
-you O
+Yea I-NP
+you I-NP
 told O
 me B-NP
 liao, O
@@ -19309,8 +19309,8 @@ ps>< B-NP
 someone O
 from O
 another B-NP
-room! I-NP
-Haha I-NP
+room! O
+Haha O
 okay O
 let's O
 do O
@@ -19349,7 +19349,7 @@ isit? O
 
 Do O
 we O
-have O
+have B-NP
 any O
 spare B-NP
 power O
@@ -19360,9 +19360,9 @@ cya B-NP
 there O
 
 I O
-mean O
-<DECIMAL> O
-hrs O
+mean B-NP
+<DECIMAL> B-NP
+hrs I-NP
 or O
 2hrs O
 hahaha O
@@ -19534,21 +19534,21 @@ Associates O
 <#> O
 /C O
 Jadhavji O
-Jethabhai O
-Bldg., O
-R. O
-No. O
-<#> B-NP
-, O
-Gr. O
-Flr. O
-Mughbhat O
-Lane O
-, B-NP
-Girgaon I-NP
+Jethabhai B-NP
+Bldg., I-NP
+R. I-NP
+No. I-NP
+<#> I-NP
 , I-NP
-Mumbai O
-<#> O
+Gr. I-NP
+Flr. I-NP
+Mughbhat I-NP
+Lane I-NP
+, O
+Girgaon O
+, O
+Mumbai B-NP
+<#> I-NP
 <#> O
 . O
 Office O
@@ -19569,7 +19569,7 @@ my O
 efforts! O
 Biochem O
 was O
-B- O
+B- B-NP
 
 HAHA O
 NICE O
@@ -19600,10 +19600,10 @@ you O
 Are O
 you B-NP
 free I-NP
-for O
-the O
-whole O
-camp O
+for I-NP
+the B-NP
+whole B-NP
+camp I-NP
 ? O
 
 Nitni O
@@ -19693,7 +19693,7 @@ choose. B-NP
 Gv O
 plaza? O
 
-THIS O
+THIS B-NP
 CONVO O
 IS O
 NOT O
@@ -19701,8 +19701,8 @@ MAKING O
 ANY B-NP
 SENSE! O
 
-Daddy O
-got B-NP
+Daddy B-NP
+got I-NP
 fetch O
 u O
 ? B-NP
@@ -19716,8 +19716,8 @@ bum O
 like O
 me O
 
-Lol O
-u B-NP
+Lol B-NP
+u O
 damn O
 lame O
 
@@ -19728,7 +19728,7 @@ but O
 I'm O
 not B-NP
 sure. I-NP
-Like I-NP
+Like O
 ccc#>ccec# O
 and O
 then B-NP
@@ -19774,9 +19774,9 @@ chechi O
 It B-NP
 s O
 a O
-WHATEVER B-NP
-you I-NP
-want I-NP
+WHATEVER O
+you O
+want B-NP
 to O
 do O
 . O
@@ -19787,8 +19787,8 @@ laptop O
 to O
 use O
 in O
-ikea O
-if O
+ikea B-NP
+if I-NP
 there's O
 time O
 . B-NP
@@ -19810,7 +19810,7 @@ stole B-NP
 our O
 milo O
 and O
-my O
+my B-NP
 redendo O
 ? O
 
@@ -19819,12 +19819,12 @@ tinggal O
 
 OH O
 NO O
-MY O
-DAD O
-ASKED O
-WHICH O
-IS O
-MY O
+MY B-NP
+DAD B-NP
+ASKED I-NP
+WHICH I-NP
+IS I-NP
+MY I-NP
 BOYFRIEND, O
 CHESTER O
 OR O
@@ -19839,7 +19839,7 @@ Wa I-NP
 sob O
 sob O
 sob... O
-actually O
+actually B-NP
 I O
 also O
 want O
@@ -19889,13 +19889,13 @@ go O
 out? O
 This O
 week O
-you O
-didn't O
+you B-NP
+didn't I-NP
 meetyour O
 friends B-NP
 hor! O
-Haha O
-oh O
+Haha B-NP
+oh B-NP
 wells O
 what O
 to B-NP
@@ -19914,8 +19914,8 @@ haha! I-NP
 
 Lols I-NP
 meet I-NP
-up O
-aft O
+up I-NP
+aft I-NP
 jus O
 holidays? B-NP
 
@@ -19971,8 +19971,8 @@ lo O
 
 Sorry O
 I O
-just O
-woke O
+just B-NP
+woke I-NP
 up. O
 
 Alright O
@@ -19999,8 +19999,8 @@ luv O
 u O
 !! O
 
-Heh O
-i B-NP
+Heh B-NP
+i I-NP
 m I-NP
 queuing O
 up B-NP
@@ -20017,9 +20017,9 @@ Hahaha O
 I B-NP
 bet O
 you O
-are O
-a O
-happy O
+are B-NP
+a I-NP
+happy I-NP
 boy O
 now O
 ! O
@@ -20111,9 +20111,9 @@ shall O
 look O
 for O
 it! O
->/ O
-//<!!! O
-Ehh O
+>/ B-NP
+//<!!! I-NP
+Ehh I-NP
 haha O
 butit's O
 like O
@@ -20122,8 +20122,8 @@ e O
 everyone B-NP
 say I-NP
 e, I-NP
-the O
-a B-NP
+the I-NP
+a I-NP
 dorable I-NP
 but I-NP
 ugly O
@@ -20147,13 +20147,13 @@ Sunday B-NP
 can. O
 
 Umma. B-NP
-Did I-NP
+Did O
 she O
 say O
 anything O
 
-I O
-can O
+I B-NP
+can I-NP
 try, O
 but O
 I O
@@ -20163,7 +20163,7 @@ D= O
 
 Bbq B-NP
 at I-NP
-macs?! O
+macs?! I-NP
 
 My O
 lesson O
@@ -20175,10 +20175,10 @@ at O
 Haha B-NP
 feeling O
 h O
-b O
-! O
-Yeap O
-ver O
+b B-NP
+! B-NP
+Yeap I-NP
+ver I-NP
 y O
 soon!!!(: O
 
@@ -20213,8 +20213,8 @@ I O
 'm O
 confused! O
 To O
-sch O
-is O
+sch B-NP
+is I-NP
 it?? O
 
 No O
@@ -20252,15 +20252,15 @@ residency O
 No O
 I B-NP
 can't I-NP
-haha B-NP
-the B-NP
+haha O
+the O
 last O
 time O
 I O
-host O
-a O
-website O
-is O
+host B-NP
+a B-NP
+website I-NP
+is I-NP
 3 O
 years O
 ago B-NP
@@ -20271,7 +20271,7 @@ pm! B-NP
 Np I-NP
 haha I-NP
 
-Haha I-NP
+Haha O
 won't O
 lah B-NP
 lol... I-NP
@@ -20294,9 +20294,9 @@ tell?? O
 Hahaha O
 cool!! O
 
-Hmm O
-tmr O
-evening B-NP
+Hmm B-NP
+tmr I-NP
+evening O
 abt O
 five O
 plus B-NP
@@ -20312,8 +20312,8 @@ much O
 longer B-NP
 in B-NP
 Syria O
-than O
-Canada O
+than B-NP
+Canada B-NP
 , B-NP
 eh B-NP
 ? I-NP
@@ -20327,10 +20327,10 @@ more O
 work O
 done O
 in B-NP
-a O
-day O
-than O
-us O
+a I-NP
+day I-NP
+than I-NP
+us I-NP
 with O
 all O
 that O
@@ -20381,7 +20381,7 @@ you O
 have O
 to O
 take O
-howard O
+howard B-NP
 
 i O
 am O
@@ -20400,7 +20400,7 @@ in O
 half O
 an O
 hour O
-! O
+! B-NP
 
 Why O
 eh? O
@@ -20435,9 +20435,9 @@ you O
 
 Btwwww O
 go O
-reinstate O
-your O
-facebookkkk O
+reinstate B-NP
+your I-NP
+facebookkkk I-NP
 
 I O
 love O
@@ -20485,7 +20485,7 @@ Raining O
 season B-NP
 ah.. I-NP
 
-Haha I-NP
+Haha O
 okay! O
 Then O
 I B-NP
@@ -20538,8 +20538,8 @@ to O
 train O
 back O
 wat. O
-U O
-go B-NP
+U B-NP
+go I-NP
 gym O
 urself? O
 
@@ -20587,13 +20587,13 @@ Lol O
 u O
 not O
 buying B-NP
-then.dun O
-buy O
-lol... O
+then.dun I-NP
+buy I-NP
+lol... I-NP
 u O
 go O
-tamp O
-just O
+tamp B-NP
+just I-NP
 to O
 buy O
 koi O
@@ -20602,8 +20602,8 @@ disc O
 arh O
 lol... O
 need O
-me O
-help O
+me B-NP
+help B-NP
 u O
 go O
 take? O
@@ -20630,7 +20630,7 @@ problem. I-NP
 Who I-NP
 u O
 
-I'm B-NP
+I'm I-NP
 at O
 work, B-NP
 can I-NP
@@ -20653,8 +20653,8 @@ nothing O
 to O
 do, O
 then O
-you O
-staying B-NP
+you B-NP
+staying I-NP
 at I-NP
 home O
 eh? O
@@ -20764,7 +20764,7 @@ now?? O
 Lol O
 i O
 have O
-nothing O
+nothing B-NP
 to O
 shop. B-NP
 
@@ -20776,8 +20776,8 @@ because O
 main O
 crystal O
 is B-NP
-<#> O
-MHz B-NP
+<#> I-NP
+MHz O
 anyway O
 
 Haha O
@@ -20824,8 +20824,8 @@ A O
 fair O
 amount B-NP
 , I-NP
-yeah. O
-:( O
+yeah. I-NP
+:( I-NP
 but O
 after B-NP
 tomorrow O
@@ -20841,8 +20841,8 @@ need O
 transcript B-NP
 or O
 certification O
-letter? O
-letter O
+letter? B-NP
+letter I-NP
 2 O
 to O
 3 O
@@ -20885,10 +20885,10 @@ Oh O
 I O
 was O
 referring O
-to O
-eng O
-dept O
-though! B-NP
+to B-NP
+eng I-NP
+dept I-NP
+though! I-NP
 Haha I-NP
 wow I-NP
 nice! I-NP
@@ -20949,7 +20949,7 @@ finish B-NP
 
 Nhsbe O
 <#> O
-4 O
+4 B-NP
 
 Its B-NP
 okay! O
@@ -20981,9 +20981,9 @@ alright. O
 
 Mummy, O
 睡觉了。明天再shop. O
-晚安！ O
+晚安！ B-NP
 
-No O
+No I-NP
 that O
 just O
 means B-NP
@@ -21034,10 +21034,10 @@ to B-NP
 eat! I-NP
 hahaha O
 my O
-bro B-NP
-was B-NP
-very I-NP
-neutral, I-NP
+bro O
+was O
+very O
+neutral, O
 my O
 dad O
 ask O
@@ -21073,8 +21073,8 @@ i O
 lazy O
 to O
 turn B-NP
-on O
-my B-NP
+on I-NP
+my O
 com O
 :Pjust O
 bathe O
@@ -21096,9 +21096,9 @@ I O
 can B-NP
 dl O
 leh. B-NP
-what O
-time O
-u O
+what B-NP
+time B-NP
+u I-NP
 gg? O
 
 Heee O
@@ -21230,8 +21230,8 @@ can't O
 take O
 phonecalls O
 past O
-7pm B-NP
-. B-NP
+7pm O
+. O
 Thanks O
 
 LOL O
@@ -21339,7 +21339,7 @@ I B-NP
 got O
 free O
 message B-NP
-XD O
+XD I-NP
 
 I B-NP
 need I-NP
@@ -21420,7 +21420,7 @@ missed O
 anyth O
 out O
 , O
-and O
+and B-NP
 finish O
 ourschedule O
 ! O
@@ -21459,8 +21459,8 @@ alsostarting O
 school B-NP
 soon.. O
 
-If O
-you O
+If I-NP
+you I-NP
 reach O
 cathay O
 , O
@@ -21540,8 +21540,8 @@ you! O
 hee B-NP
 
 Ok. O
-Wait O
-for O
+Wait B-NP
+for B-NP
 me O
 then O
 
@@ -21570,7 +21570,7 @@ Haha I-NP
 okay!! O
 I B-NP
 dm!! B-NP
-Hmm O
+Hmm I-NP
 this O
 week O
 ? O
@@ -21658,9 +21658,9 @@ it B-NP
 Lols O
 celebrated O
 last O
-week. O
-Eh O
-when B-NP
+week. B-NP
+Eh I-NP
+when I-NP
 u I-NP
 free I-NP
 wanna O
@@ -21719,8 +21719,8 @@ want O
 de... O
 lol O
 relax! O
-Not B-NP
-ur I-NP
+Not O
+ur O
 laptop O
 fault O
 is B-NP
@@ -21735,14 +21735,14 @@ lol B-NP
 I I-NP
 don't I-NP
 think I-NP
-I'll O
-go, O
+I'll I-NP
+go, I-NP
 really O
 got B-NP
 to O
 force B-NP
-myself O
-to O
+myself I-NP
+to I-NP
 catch O
 up O
 withschool O
@@ -21763,8 +21763,8 @@ shower O
 first. B-NP
 And O
 Istill O
-want O
-to O
+want B-NP
+to B-NP
 thank O
 my B-NP
 dear O
@@ -21797,13 +21797,13 @@ me O
 to O
 take O
 care O
-Lol. O
-Verycaring O
+Lol. B-NP
+Verycaring I-NP
 wo. B-NP
 No B-NP
 they I-NP
 sold I-NP
-out O
+out I-NP
 Lol. O
 Btw O
 the O
@@ -21875,11 +21875,11 @@ knew?? O
 I B-NP
 never I-NP
 watch O
-before O
-leh. O
+before B-NP
+leh. I-NP
 
-Brb O
-dc! O
+Brb I-NP
+dc! I-NP
 I O
 dun O
 use O
@@ -21893,8 +21893,8 @@ Can B-NP
 can O
 (: B-NP
 didn't I-NP
-ask O
-anyone B-NP
+ask I-NP
+anyone I-NP
 ! I-NP
 
 That's B-NP
@@ -21925,15 +21925,15 @@ me O
 to B-NP
 bring I-NP
 you I-NP
-!! O
-Ooo B-NP
+!! I-NP
+Ooo I-NP
 i I-NP
 i O
 c! O
 Haha O
 I B-NP
 guess I-NP
-awhile I-NP
+awhile O
 ppl O
 tolerance O
 levels O
@@ -21942,8 +21942,8 @@ so O
 high B-NP
 ah. O
 Haha O
-so O
-sneaky!! O
+so B-NP
+sneaky!! I-NP
 So O
 you O
 free B-NP
@@ -21985,7 +21985,7 @@ have O
 no B-NP
 idea I-NP
 what I-NP
-to O
+to I-NP
 get O
 leh! O
 
@@ -22087,15 +22087,15 @@ for O
 grandma O
 today O
 , O
-should O
-be O
+should B-NP
+be B-NP
 done O
 before O
 the B-NP
 parade I-NP
 
-老公，慢慢来，come O
-to O
+老公，慢慢来，come B-NP
+to B-NP
 me O
 safely!muacks O
 
@@ -22144,8 +22144,8 @@ I O
 tot O
 always B-NP
 is O
-weight O
-to O
+weight B-NP
+to I-NP
 strength O
 ratio? O
 Says O
@@ -22248,8 +22248,8 @@ wat O
 
 Then O
 i'm O
-not O
-a O
+not B-NP
+a I-NP
 friend B-NP
 ? B-NP
 X: I-NP
@@ -22265,9 +22265,9 @@ what O
 Yoyo B-NP
 so O
 later O
-how! B-NP
+how! O
 
-Hahaha B-NP
+Hahaha I-NP
 true I-NP
 true O
 the O
@@ -22293,7 +22293,7 @@ end O
 
 Haha O
 what??? O
-What O
+What B-NP
 privileges! O
 
 Oh B-NP
@@ -22375,7 +22375,7 @@ and O
 any B-NP
 other O
 explanation O
-oftotally O
+oftotally B-NP
 unknown O
 stuff O
 could O
@@ -22474,7 +22474,7 @@ got B-NP
 offer I-NP
 meh? I-NP
 
-Next O
+Next B-NP
 stop O
 clementi O
 lol. O
@@ -22503,8 +22503,8 @@ rain O
 but O
 I B-NP
 'm I-NP
-here I-NP
-now I-NP
+here O
+now B-NP
 
 What's I-NP
 the O
@@ -22518,13 +22518,13 @@ Willy O
 which O
 lab O
 do O
-we O
+we B-NP
 meet O
 you O
 at? B-NP
 
-Haha I-NP
-if I-NP
+Haha O
+if O
 it O
 bothers B-NP
 you I-NP
@@ -22593,8 +22593,8 @@ omg O
 so O
 far O
 I O
-only O
-summarised O
+only B-NP
+summarised I-NP
 the O
 reagents O
 for B-NP
@@ -22632,9 +22632,9 @@ we I-NP
 can I-NP
 get I-NP
 in I-NP
-the I-NP
-shower I-NP
-! I-NP
+the O
+shower O
+! O
 
 Ok. O
 Back O
@@ -22650,8 +22650,8 @@ screen B-NP
 the O
 start O
 game O
-and O
-highs B-NP
+and B-NP
+highs I-NP
 score I-NP
 ah I-NP
 the O
@@ -22674,7 +22674,7 @@ love O
 . O
 :-) B-NP
 
-The I-NP
+The O
 store. O
 And O
 to O
@@ -22702,37 +22702,37 @@ you B-NP
 know. O
 Btw O
 whichtutorial O
-slots B-NP
-you I-NP
-all I-NP
-taking? I-NP
+slots O
+you O
+all O
+taking? O
 
 I'm O
 sorry, O
-I O
-just O
-saw O
-on O
-acebo O
-ok O
-t B-NP
+I B-NP
+just I-NP
+saw I-NP
+on I-NP
+acebo I-NP
+ok I-NP
+t I-NP
 see O
 has O
 to O
 actually O
 stay O
 atthe O
-hospital O
-*tag-error* O
-I O
+hospital B-NP
+*tag-error* I-NP
+I I-NP
 feel O
 really O
 really O
 bad O
 , O
-I'm O
-sorry. O
-Really O
+I'm B-NP
+sorry. I-NP
+Really I-NP
 reallysoon O
 we'll O
 go O
@@ -22771,10 +22771,10 @@ problem. O
 
 Too O
 late. O
-I O
-said O
-i O
-have O
+I B-NP
+said I-NP
+i I-NP
+have I-NP
 the O
 website O
 . B-NP
@@ -22811,8 +22811,8 @@ bum O
 Sorry O
 for O
 late O
-reply B-NP
-. I-NP
+reply O
+. B-NP
 I I-NP
 might I-NP
 be I-NP
@@ -22942,15 +22942,15 @@ sayang B-NP
 my O
 boy. B-NP
 u O
-got B-NP
-drink I-NP
+got O
+drink O
 water O
 or O
 not?:-* O
 
 Is O
 there B-NP
-a I-NP
+a O
 reason O
 we've O
 not O
@@ -22966,7 +22966,7 @@ and O
 all O
 the O
 best B-NP
-in I-NP
+in O
 your O
 exam O
 
@@ -22978,7 +22978,7 @@ Lol O
 
 Ok._. O
 Wake O
-up O
+up B-NP
 call O
 me.. O
 rem O
@@ -22994,7 +22994,7 @@ joel O
 afterwards B-NP
 only. I-NP
 
-Yep! O
+Yep! I-NP
 Cya O
 then! O
 
@@ -23014,7 +23014,7 @@ awhile O
 then O
 can O
 come O
-over O
+over B-NP
 le!! O
 Hee. O
 
@@ -23059,9 +23059,9 @@ right? O
 Ooo O
 haha O
 yeah O
-I O
-had O
-it O
+I B-NP
+had I-NP
+it I-NP
 coz O
 my O
 parents O
@@ -23077,16 +23077,16 @@ the O
 time O
 I O
 just O
-lost B-NP
-the B-NP
-phone I-NP
+lost O
+the O
+phone B-NP
 at I-NP
-home I-NP
+home O
 ! O
 Hahaha! O
 that O
 is B-NP
-crazy O
+crazy I-NP
 rich O
 leh! O
 
@@ -23119,7 +23119,7 @@ home O
 safe O
 k! B-NP
 
-Really. O
+Really. B-NP
 Wonky O
 as O
 in? O
@@ -23127,14 +23127,14 @@ in? O
 Lol O
 not O
 lousy, B-NP
-just O
+just I-NP
 that O
 I O
 nv O
 utilise O
 it O
 fully. O
-If O
+If B-NP
 I O
 expand O
 all O
@@ -23372,7 +23372,7 @@ stupid O
 mrt B-NP
 just O
 now B-NP
-stuck! I-NP
+stuck! O
 Help O
 us O
 keep O
@@ -23390,8 +23390,8 @@ grad O
 in B-NP
 time? I-NP
 
-Haha B-NP
-I B-NP
+Haha O
+I O
 think O
 it O
 's O
@@ -23463,9 +23463,9 @@ ur O
 a- B-NP
 is? O
 
-Hahahaha O
-okay. O
-It' B-NP
+Hahahaha B-NP
+okay. B-NP
+It' O
 s O
 okay O
 bah O
@@ -23492,14 +23492,14 @@ Will O
 keep O
 this O
 one O
-. O
-Maybe O
-that O
-'s O
+. B-NP
+Maybe B-NP
+that I-NP
+'s I-NP
 why O
 you O
-didn't O
-get O
+didn't B-NP
+get I-NP
 all O
 the O
 messages O
@@ -23528,15 +23528,15 @@ harder? O
 Sorry B-NP
 dun O
 think O
-so. O
-U O
-ask O
+so. B-NP
+U I-NP
+ask I-NP
 andy O
 ?? O
 
 Omw O
-home O
-now O
+home B-NP
+now I-NP
 fyi O
 
 I O
@@ -23590,8 +23590,8 @@ you O
 all O
 tmr. O
 
-Muuuacks. O
-Orhz B-NP
+Muuuacks. B-NP
+Orhz I-NP
 love O
 u O
 much!!! O
@@ -23646,7 +23646,7 @@ ok! O
 Np O
 (: O
 chinese B-NP
-exam O
+exam I-NP
 on O
 <#> O
 st! O
@@ -23664,9 +23664,9 @@ Yeah O
 <DECIMAL> O
 pm O
 will O
-be O
-the O
-meeting B-NP
+be B-NP
+the I-NP
+meeting O
 time, O
 but O
 im B-NP
@@ -23732,8 +23732,8 @@ I O
 send B-NP
 the O
 assumption O
-adding O
-a O
+adding B-NP
+a B-NP
 paragraph O
 for O
 the O
@@ -23772,15 +23772,15 @@ My O
 training O
 was O
 fun O
-haha O
-hilda O
+haha B-NP
+hilda I-NP
 tay B-NP
 came! B-NP
 
 Hi O
-Stewart O
-, O
-please O
+Stewart B-NP
+, B-NP
+please I-NP
 Ler O
 me B-NP
 know O
@@ -23818,7 +23818,7 @@ you O
 ? B-NP
 
 reach I-NP
-le O
+le I-NP
 
 Hahaha O
 interesting O
@@ -23906,11 +23906,11 @@ with O
 me O
 , O
 love O
-you O
+you B-NP
 
-Yes O
-hopefully. O
-Heh O
+Yes I-NP
+hopefully. I-NP
+Heh I-NP
 
 Aww B-NP
 sorry, I-NP
@@ -23923,7 +23923,7 @@ after I-NP
 movie O
 . O
 
-Yeah O
+Yeah B-NP
 i O
 know B-NP
 i O
@@ -24088,8 +24088,8 @@ danger O
 . O
 I O
 just B-NP
-dont O
-like B-NP
+dont I-NP
+like O
 peeps O
 using O
 drugs O
@@ -24106,7 +24106,7 @@ power O
 cable O
 spoil B-NP
 door O
-port O
+port B-NP
 spoil, O
 I O
 used O
@@ -24135,15 +24135,15 @@ room O
 do? O
 
 Lol O
-thanksss O
-I O
+thanksss B-NP
+I I-NP
 just O
 took O
 my O
 napfa. O
-Everything O
-silver O
-except O
+Everything B-NP
+silver I-NP
+except I-NP
 SBJ O
 :( O
 
@@ -24177,7 +24177,7 @@ mahjong O
 . B-NP
 
 Ms B-NP
-phua O
+phua I-NP
 ! O
 You O
 all O
@@ -24293,7 +24293,7 @@ spring I-NP
 break O
 ? O
 
-Haha O
+Haha B-NP
 yeap!! O
 Super O
 nice O
@@ -24342,16 +24342,16 @@ Jiayou! O
 
 Feel O
 free O
-to B-NP
-sms, O
+to O
+sms, B-NP
 I O
 can O
 receive O
 for O
 free. O
 Hope O
-all O
-is B-NP
+all B-NP
+is I-NP
 ok I-NP
 on O
 this O
@@ -24390,8 +24390,8 @@ home O
 sia. O
 But O
 I O
-don't O
-mind. O
+don't B-NP
+mind. I-NP
 You O
 already O
 there? O
@@ -24408,8 +24408,8 @@ festival B-NP
 is I-NP
 it? I-NP
 
-Mornin O
-do B-NP
+Mornin B-NP
+do I-NP
 we I-NP
 need I-NP
 to I-NP
@@ -24438,8 +24438,8 @@ stuff O
 go O
 school; O
 it's O
-ok O
-rite O
+ok B-NP
+rite I-NP
 
 U O
 can O
@@ -24473,11 +24473,11 @@ do O
 times O
 ! O
 I O
-nearly O
-fall O
-asleep O
-halfway!So O
-Sunday B-NP
+nearly B-NP
+fall I-NP
+asleep I-NP
+halfway!So I-NP
+Sunday O
 de O
 marketing O
 meeting O
@@ -24529,11 +24529,11 @@ unit O
 . O
 Can B-NP
 you O
-tell O
-the O
+tell B-NP
+the I-NP
 housenumber O
-and O
-street O
+and B-NP
+street I-NP
 and O
 approx O
 built O
@@ -24562,10 +24562,10 @@ clothes O
 one O
 lo O
 
-Haha O
-I O
-bring O
-you B-NP
+Haha B-NP
+I B-NP
+bring I-NP
+you O
 go O
 underpass O
 la. O
@@ -24574,12 +24574,12 @@ no O
 need O
 to O
 risk O
-le. B-NP
+le. O
 
 Hee O
 orhh! O
-Must O
-sayang O
+Must B-NP
+sayang I-NP
 u O
 much O
 uch O
@@ -24614,16 +24614,16 @@ and O
 illogical O
 and O
 Ican't O
-respect O
-that O
-either, B-NP
+respect B-NP
+that B-NP
+either, I-NP
 but I-NP
 religion I-NP
 in O
 conjunction O
 with O
 sense B-NP
-isfine... O
+isfine... I-NP
 People O
 like O
 Justin O
@@ -24664,8 +24664,8 @@ defending B-NP
 that O
 
 Good! O
-Heehee O
-=D O
+Heehee B-NP
+=D B-NP
 
 You O
 call O
@@ -24698,16 +24698,16 @@ chapter O
 4 O
 notes? B-NP
 
-Just O
-forget B-NP
+Just I-NP
+forget I-NP
 it O
 ,its O
 not O
 important. O
 
 did O
-you O
-had O
+you B-NP
+had I-NP
 your O
 dinner O
 ? O
@@ -24767,19 +24767,19 @@ my B-NP
 stuff! O
 
 I B-NP
-heard O
-our B-NP
+heard I-NP
+our I-NP
 unit I-NP
-might I-NP
-get I-NP
-activated I-NP
-at I-NP
+might O
+get O
+activated O
+at O
 noon O
 today O
 
-Lt O
-<#> O
-rite? O
+Lt I-NP
+<#> I-NP
+rite? I-NP
 
 Hahaha O
 her O
@@ -24805,15 +24805,15 @@ bench B-NP
 press O
 ... O
 
-Statement B-NP
-. B-NP
+Statement O
+. O
 Because O
 he O
 had B-NP
 a I-NP
-discussion O
-with O
-lynette O
+discussion B-NP
+with B-NP
+lynette I-NP
 
 So O
 going O
@@ -24832,8 +24832,8 @@ coming O
 now! O
 
 Lg B-NP
-reach O
-le O
+reach I-NP
+le I-NP
 mug O
 
 Not B-NP
@@ -24869,9 +24869,9 @@ themorning I-NP
 Yeah B-NP
 I O
 went O
-db O
-! O
-Butt O
+db B-NP
+! I-NP
+Butt I-NP
 aching O
 like O
 mad B-NP
@@ -24879,8 +24879,8 @@ now O
 though): O
 is O
 it O
-the6th O
-??? O
+the6th B-NP
+??? I-NP
 
 LOL. O
 so O
@@ -24890,8 +24890,8 @@ Just O
 regular O
 therapy O
 
-Wa O
-so B-NP
+Wa B-NP
+so I-NP
 fast! I-NP
 I I-NP
 also O
@@ -24920,8 +24920,8 @@ sad O
 right! O
 No O
 coz B-NP
-<#> O
-is O
+<#> I-NP
+is I-NP
 our O
 no O
 sch O
@@ -25117,8 +25117,8 @@ Hey O
 i O
 'm B-NP
 at I-NP
-mall O
-already, O
+mall I-NP
+already, I-NP
 the O
 one O
 in O
@@ -25157,7 +25157,7 @@ from O
 u O
 how O
 u O
-'re O
+'re B-NP
 feeling O
 and O
 how O
@@ -25246,9 +25246,9 @@ you O
 go! O
 
 We O
-go O
-out O
-eat? B-NP
+go B-NP
+out I-NP
+eat? I-NP
 
 Yeah O
 definitely B-NP
@@ -25307,8 +25307,8 @@ Okay! O
 I O
 had O
 land B-NP
-training O
-today! B-NP
+training I-NP
+today! O
 
 erm. O
 just O
@@ -25393,7 +25393,7 @@ are O
 there? B-NP
 
 Nop. O
-Neck O
+Neck B-NP
 ache O
 
 Hhaha O
@@ -25432,14 +25432,14 @@ at O
 .. O
 So O
 good! B-NP
-Meet O
+Meet I-NP
 ivy O
 for O
 lunch O
 ! B-NP
 I I-NP
 also I-NP
-want.. O
+want.. I-NP
 
 Tim O
 junhoong O
@@ -25457,8 +25457,8 @@ No O
 la O
 but B-NP
 we O
-order O
-liao, O
+order B-NP
+liao, B-NP
 waiting O
 for O
 you O
@@ -25485,7 +25485,7 @@ IS O
 TRUE B-NP
 RED O
 AND O
-FALSE O
+FALSE B-NP
 GREEN O
 
 I O
@@ -25504,8 +25504,8 @@ Butgoing O
 there O
 eat O
 porridge O
-. O
-Come O
+. B-NP
+Come I-NP
 la O
 
 Yeah! O
@@ -25514,9 +25514,9 @@ we O
 can O
 make B-NP
 a O
-fob O
-medley O
-=P B-NP
+fob B-NP
+medley I-NP
+=P I-NP
 I've I-NP
 been I-NP
 playing O
@@ -25566,8 +25566,8 @@ do O
 earlier O
 haha:/ B-NP
 wow I-NP
-haha O
-pro O
+haha I-NP
+pro I-NP
 pro! O
 his O
 observation O
@@ -25593,9 +25593,9 @@ Really? O
 You B-NP
 should O
 get O
-a O
-fan, O
-it'll O
+a B-NP
+fan, B-NP
+it'll I-NP
 probably O
 help O
 a O
@@ -25645,8 +25645,8 @@ now!? O
 Hahaha O
 huh!! O
 then B-NP
-not O
-fitwhen B-NP
+not I-NP
+fitwhen I-NP
 you I-NP
 in I-NP
 ns O
@@ -25654,7 +25654,7 @@ how? O
 Cannot B-NP
 match I-NP
 then I-NP
-what O
+what I-NP
 happen:o O
 haha O
 yeah O
@@ -25677,7 +25677,7 @@ outside O
 
 Whats B-NP
 at I-NP
-utc O
+utc I-NP
 
 Ok O
 hehe O
@@ -25687,18 +25687,18 @@ abbie's O
 email O
 can? O
 <EMAIL> B-NP
-! O
+! I-NP
 
 Ok! O
 Nw O
 l O
 g O
 wsiting B-NP
-for O
+for I-NP
 bus O
 
-Wear O
-a O
+Wear I-NP
+a I-NP
 dress! O
 Haha O
 die! O
@@ -25744,7 +25744,7 @@ to O
 what O
 I O
 said. O
-(y) O
+(y) B-NP
 
 :o O
 what O
@@ -25752,8 +25752,8 @@ pass O
 around O
 
 Wah O
-telepathy O
-again. O
+telepathy B-NP
+again. I-NP
 Can!! O
 Love O
 lots O
@@ -25797,7 +25797,7 @@ too! O
 
 Wah O
 crazy! B-NP
-But O
+But I-NP
 you O
 learn O
 from B-NP
@@ -25824,8 +25824,8 @@ Haha O
 dun O
 want B-NP
 nap O
-so O
-much O
+so B-NP
+much I-NP
 ah! O
 *tag-error* O
 *tag-error* B-NP
@@ -25842,8 +25842,8 @@ tell O
 you O
 for O
 what O
-sia O
-got O
+sia B-NP
+got I-NP
 prize O
 meh! B-NP
 
@@ -26041,13 +26041,13 @@ double O
 check O
 that O
 after B-NP
-polishing O
+polishing I-NP
 can O
 use B-NP
 right I-NP
 away? I-NP
-Noneed I-NP
-to I-NP
+Noneed O
+to B-NP
 wait I-NP
 a O
 day O
@@ -26150,11 +26150,11 @@ V O
 ex O
 rite O
 
-Pass O
-me B-NP
-i O
-'ll O
-be O
+Pass B-NP
+me I-NP
+i I-NP
+'ll I-NP
+be I-NP
 at O
 a O
 <#> O
@@ -26200,8 +26200,8 @@ dear O
 ryan B-NP
 ^^<3 I-NP
 
-I O
-go O
+I I-NP
+go I-NP
 down O
 now O
 find O
@@ -26218,7 +26218,7 @@ in O
 today O
 when O
 you O
-cant? O
+cant? B-NP
 
 I B-NP
 told O
@@ -26237,9 +26237,9 @@ Cannot O
 so B-NP
 soon. O
 Cause O
-I O
-now B-NP
-going O
+I B-NP
+now I-NP
+going I-NP
 to O
 eat O
 dinner. B-NP
@@ -26249,12 +26249,12 @@ yet. O
 Or O
 ucan O
 call O
-fab O
-and O
+fab B-NP
+and B-NP
 Jason O
 see B-NP
-whether O
-they O
+whether I-NP
+they I-NP
 wan O
 play O
 with B-NP
@@ -26283,8 +26283,8 @@ u O
 sia. O
 
 With O
-your O
-eyes O
+your B-NP
+eyes I-NP
 and O
 brain O
 ? O
@@ -26317,7 +26317,7 @@ pissed O
 
 Lol B-NP
 take I-NP
-so I-NP
+so O
 long O
 to O
 understand O
@@ -26416,12 +26416,12 @@ too O
 fast O
 haha O
 
-Hi O
-alan, B-NP
+Hi I-NP
+alan, I-NP
 this O
-is O
-to O
-inform B-NP
+is B-NP
+to I-NP
+inform O
 you O
 that O
 for O
@@ -26447,9 +26447,9 @@ expect O
 the O
 $ B-NP
 <#> O
-transacted O
-to O
-campustutor O
+transacted B-NP
+to B-NP
+campustutor I-NP
 to O
 arrive O
 slightlylater. O
@@ -26462,8 +26462,8 @@ you B-NP
 help B-NP
 arrange I-NP
 the I-NP
-other I-NP
-two O
+other O
+two B-NP
 on O
 next O
 Wed O
@@ -26520,14 +26520,14 @@ that's B-NP
 y O
 hard O
 to B-NP
-score. O
+score. I-NP
 Consider O
 first B-NP
 ah.Not I-NP
 sure O
 can O
 start B-NP
-bid O
+bid I-NP
 tml O
 or O
 not. B-NP
@@ -26538,23 +26538,23 @@ shuttle. O
 Public O
 bus. O
 Cus O
-I O
-used O
+I B-NP
+used I-NP
 google O
 map O
 and B-NP
 apparently O
 you O
 gotta B-NP
-take O
+take I-NP
 a O
 thirty O
 min B-NP
 bus O
 ride B-NP
-from O
-the O
-pasirris B-NP
+from I-NP
+the I-NP
+pasirris O
 mrt O
 stn B-NP
 to O
@@ -26616,10 +26616,10 @@ rehearsal? O
 Dun O
 meet O
 him B-NP
-alone O
+alone I-NP
 k! O
 
-AHH O
+AHH B-NP
 SORRY!! O
 I O
 just O
@@ -26632,10 +26632,10 @@ Dear O
 
 Mm B-NP
 that I-NP
-time O
-you O
-dont O
-like B-NP
+time I-NP
+you I-NP
+dont I-NP
+like O
 fun O
 
 I O
@@ -26679,8 +26679,8 @@ bring O
 on B-NP
 monday O
 
-Hahaha O
-yo! O
+Hahaha B-NP
+yo! I-NP
 
 I O
 dam O
@@ -26729,28 +26729,28 @@ that O
 >< O
 pspspspspsps>< O
 
-Yea O
-why? O
-U O
-going O
-2moro O
+Yea I-NP
+why? I-NP
+U I-NP
+going I-NP
+2moro I-NP
 ? O
 
 Sorry I-NP
 I I-NP
 have I-NP
-something O
-on B-NP
-today O
-.. O
+something I-NP
+on I-NP
+today I-NP
+.. I-NP
 
-Wow O
-that O
+Wow I-NP
+that I-NP
 's O
-early O
+early B-NP
 
-Lol O
-we B-NP
+Lol I-NP
+we I-NP
 buy I-NP
 lots I-NP
 for I-NP
@@ -26781,8 +26781,8 @@ have O
 for B-NP
 sale I-NP
 and I-NP
-how's O
-bf B-NP
+how's I-NP
+bf O
 
 Okie O
 lol.. B-NP
@@ -26792,8 +26792,8 @@ also O
 got O
 shuai B-NP
 ge O
-arh O
-lol... O
+arh B-NP
+lol... I-NP
 how O
 can B-NP
 u O
@@ -26850,9 +26850,9 @@ k! O
 Hey O
 wanna O
 meet O
-for O
-dinner O
-later? O
+for B-NP
+dinner B-NP
+later? I-NP
 Having O
 chicken O
 rice. O
@@ -26895,7 +26895,7 @@ so O
 tomorrow O
 . B-NP
 Really O
-sorry. O
+sorry. B-NP
 
 convey O
 my B-NP
@@ -26992,8 +26992,8 @@ etc.. O
 Outside O
 r O
 *tag-error* O
-c O
-lassroom O
+c B-NP
+lassroom I-NP
 just O
 w O
 :P O
@@ -27042,7 +27042,7 @@ I O
 cannot B-NP
 find O
 it O
-lehs.. O
+lehs.. B-NP
 
 Yea O
 eating O
@@ -27109,9 +27109,9 @@ help O
 Shall O
 call O
 now O
-dear O
-having O
-food O
+dear B-NP
+having B-NP
+food I-NP
 
 Haha I-NP
 get I-NP
@@ -27204,8 +27204,8 @@ more B-NP
 time O
 then O
 say O
-ba.. O
-:) O
+ba.. B-NP
+:) B-NP
 
 Roy O
 not O
@@ -27287,7 +27287,7 @@ lo O
 
 Yes O
 so B-NP
-horrible!!!! O
+horrible!!!! I-NP
 
 Depends B-NP
 on O
@@ -27334,7 +27334,7 @@ work!!!!!!!!!!!! O
 
 e O
 just O
-reached. O
+reached. B-NP
 
 Haha O
 call O
@@ -27358,7 +27358,7 @@ fail! O
 I B-NP
 'm O
 here, B-NP
-lol. O
+lol. I-NP
 Nvm, O
 see O
 u O
@@ -27415,7 +27415,7 @@ you B-NP
 be O
 in B-NP
 sch O
-tmr O
+tmr B-NP
 ? O
 
 Where's I-NP
@@ -27428,8 +27428,8 @@ got I-NP
 time I-NP
 then I-NP
 come O
-up O
-awhile O
+up B-NP
+awhile I-NP
 bah! O
 I O
 dun O
@@ -27462,8 +27462,8 @@ at B-NP
 the O
 same O
 place O
-.. O
-wrong B-NP
+.. B-NP
+wrong I-NP
 tree I-NP
 ok? O
 bring B-NP
@@ -27517,8 +27517,8 @@ to O
 go O
 to O
 Mayra's B-NP
-parents' O
-spot B-NP
+parents' I-NP
+spot O
 when O
 we O
 get O
@@ -27574,8 +27574,8 @@ Sweet. O
 Submittiiinnggg. O
 Eeee. O
 
-Hahaha O
-well O
+Hahaha B-NP
+well I-NP
 got O
 lesson O
 until O
@@ -27596,7 +27596,7 @@ Hmm O
 i O
 don't O
 think B-NP
-can O
+can I-NP
 reach O
 b4 O
 <#> B-NP
@@ -27625,7 +27625,7 @@ wad O
 hmwk? O
 
 Lol B-NP
-I O
+I I-NP
 ate O
 ice O
 cream O
@@ -27693,9 +27693,9 @@ I B-NP
 emailed I-NP
 them O
 but O
-not O
-sure O
-yet O
+not B-NP
+sure I-NP
+yet I-NP
 
 Hihi O
 sorry! O
@@ -27727,8 +27727,8 @@ I O
 saw O
 the B-NP
 one I-NP
-the I-NP
-duck I-NP
+the O
+duck O
 follow O
 the O
 human O
@@ -27836,13 +27836,13 @@ what's O
 ahandsone O
 terrapin. O
 
-Just O
-now O
-saw O
-your O
-message O
-.it O
-k B-NP
+Just B-NP
+now I-NP
+saw I-NP
+your I-NP
+message I-NP
+.it I-NP
+k O
 da:) O
 
 First O
@@ -27900,7 +27900,7 @@ no B-NP
 influence O
 over O
 us B-NP
-._. O
+._. I-NP
 I O
 think B-NP
 most O
@@ -27954,17 +27954,17 @@ more!!! O
 
 He B-NP
 say I-NP
-if O
-you O
+if I-NP
+you I-NP
 go O
 go O
 he O
 go. B-NP
 Haha O
 
-Haha O
-no O
-no B-NP
+Haha B-NP
+no I-NP
+no I-NP
 dont O
 get O
 me B-NP
@@ -27997,7 +27997,7 @@ I B-NP
 still I-NP
 wannacome I-NP
 see O
-you O
+you B-NP
 guys O
 =) O
 
@@ -28047,9 +28047,9 @@ Yups): O
 hopefully O
 it's B-NP
 short O
-bah! O
-If O
-not O
+bah! B-NP
+If I-NP
+not I-NP
 I'll O
 leave O
 early O
@@ -28103,11 +28103,11 @@ with O
 you B-NP
 . B-NP
 I O
-'m O
-excited O
+'m B-NP
+excited I-NP
 each O
 day B-NP
-i O
+i I-NP
 spend O
 with O
 you O
@@ -28210,8 +28210,8 @@ Monday O
 more B-NP
 ppl O
 in B-NP
-hostel O
-right? O
+hostel I-NP
+right? I-NP
 
 Dar O
 dar O
@@ -28266,7 +28266,7 @@ baobao O
 ! O
 
 U B-NP
-r O
+r I-NP
 in O
 sg O
 right? B-NP
@@ -28345,7 +28345,7 @@ Martinez B-NP
 right? O
 
 Hahaha B-NP
-alright O
+alright I-NP
 xP O
 
 Unsure O
@@ -28411,7 +28411,7 @@ T.T B-NP
 Haha B-NP
 my O
 napfa B-NP
-score O
+score I-NP
 recorded O
 ron B-NP
 gly, O
@@ -28437,8 +28437,8 @@ t O
 cfor B-NP
 it I-NP
 then O
-my O
-teacher O
+my B-NP
+teacher B-NP
 recorded O
 my B-NP
 before I-NP
@@ -28503,7 +28503,7 @@ Ya.but B-NP
 at O
 least O
 the B-NP
-Zhenxiu O
+Zhenxiu I-NP
 like O
 try O
 to B-NP
@@ -28583,7 +28583,7 @@ say? B-NP
 <DECIMAL> O
 pm O
 
-Really? O
+Really? I-NP
 Where O
 is O
 it O
@@ -28593,7 +28593,7 @@ Wad O
 s O
 ur O
 comp B-NP
-pw O
+pw I-NP
 ? O
 
 Haha B-NP
@@ -28638,9 +28638,9 @@ somebody O
 here O
 I O
 want O
-you O
-to O
-see O
+you B-NP
+to B-NP
+see I-NP
 
 Why O
 is O
@@ -28649,8 +28649,8 @@ selfish.. O
 It O
 isnt O
 selfish O
-lah,but O
-he O
+lah,but B-NP
+he I-NP
 probably O
 needs O
 time O
@@ -28658,7 +28658,7 @@ to O
 recuperate O
 and O
 get O
-over O
+over B-NP
 it O
 . O
 Maybe O
@@ -28671,9 +28671,9 @@ go B-NP
 fine O
 again. O
 Well O
-you B-NP
-didnt B-NP
-find I-NP
+you O
+didnt O
+find B-NP
 me I-NP
 either. O
 
@@ -28734,10 +28734,10 @@ Your B-NP
 neckbent I-NP
 whole I-NP
 day I-NP
-le. O
+le. I-NP
 Tmr O
 I B-NP
-shall O
+shall I-NP
 come O
 find B-NP
 u O
@@ -28758,9 +28758,9 @@ bidded O
 on B-NP
 my O
 item B-NP
-just I-NP
-as I-NP
-I O
+just O
+as O
+I B-NP
 wasabout O
 to O
 take B-NP
@@ -28773,7 +28773,7 @@ think O
 too B-NP
 much. I-NP
 Just I-NP
-a O
+a I-NP
 filler! O
 
 Haha O
@@ -28797,7 +28797,7 @@ mean O
 the O
 ziploc O
 ! B-NP
-Haha O
+Haha I-NP
 yea, O
 biochem O
 fail B-NP
@@ -28826,10 +28826,10 @@ now O
 
 Kk I-NP
 wait I-NP
-for O
-u O
-at O
-stairs O
+for B-NP
+u B-NP
+at I-NP
+stairs I-NP
 entrance O
 
 Haha B-NP
@@ -28903,9 +28903,9 @@ I O
 dun B-NP
 thinkit's I-NP
 the O
-case O
-bah. O
-I O
+case B-NP
+bah. B-NP
+I I-NP
 was O
 playing O
 with O
@@ -28913,7 +28913,7 @@ the B-NP
 dog I-NP
 haha I-NP
 so I-NP
-fun I-NP
+fun O
 and O
 cute!Haha B-NP
 hmm O
@@ -28938,9 +28938,9 @@ should O
 be O
 charismatic, O
 lemme O
-go O
-check O
-haha, O
+go B-NP
+check I-NP
+haha, I-NP
 butthey O
 only B-NP
 spoke I-NP
@@ -28987,11 +28987,11 @@ Life O
 is O
 empty O
 without O
-frnds.. B-NP
-So I-NP
-Alwys O
-Be O
-In B-NP
+frnds.. O
+So O
+Alwys B-NP
+Be I-NP
+In I-NP
 Touch. I-NP
 Good I-NP
 night I-NP
@@ -29008,8 +29008,8 @@ super B-NP
 early... O
 I O
 'm O
-reaching O
-soon O
+reaching B-NP
+soon I-NP
 , O
 on O
 btc. O
@@ -29035,10 +29035,10 @@ too!!! O
 
 Haha O
 oh O
-no O
-today O
-is O
-the O
+no B-NP
+today I-NP
+is I-NP
+the I-NP
 deadline!! O
 Ask O
 him O
@@ -29145,10 +29145,10 @@ first. O
 
 Really O
 meh!!! O
-Later O
-is O
+Later B-NP
+is I-NP
 it O
-? O
+? B-NP
 XD O
 haha O
 ooo O
@@ -29192,12 +29192,12 @@ haha! B-NP
 
 Only B-NP
 for I-NP
-today O
-eh. O
+today I-NP
+eh. I-NP
 
 Everyone O
 had B-NP
-to O
+to I-NP
 experience O
 the O
 red O
@@ -29223,7 +29223,7 @@ going I-NP
 to I-NP
 bathe! I-NP
 
-Fineeeeeee O
+Fineeeeeee I-NP
 hahaha O
 I O
 don't B-NP
@@ -29238,7 +29238,7 @@ a I-NP
 pool I-NP
 near O
 my B-NP
-apartment O
+apartment I-NP
 apparently O
 haha O
 
@@ -29335,8 +29335,8 @@ shop O
 
 <name>, O
 so O
-ur O
-school O
+ur B-NP
+school B-NP
 start O
 today? O
 
@@ -29344,7 +29344,7 @@ hawhaw O
 later O
 shawn B-NP
 go O
-fondle O
+fondle B-NP
 it O
 then O
 fyl. O
@@ -29356,7 +29356,7 @@ are O
 they B-NP
 doing? O
 
-I O
+I B-NP
 'm O
 a O
 fish O
@@ -29379,8 +29379,8 @@ Yea O
 its O
 okay. O
 Thks O
-and O
-get O
+and B-NP
+get B-NP
 well O
 soon! O
 
@@ -29399,23 +29399,23 @@ good O
 or O
 bad O
 . O
-Womenusually O
-lie O
-more, O
+Womenusually B-NP
+lie I-NP
+more, I-NP
 just O
 that O
-they O
-don't O
-get B-NP
+they B-NP
+don't I-NP
+get I-NP
 caught I-NP
 as O
-easily... O
+easily... B-NP
 
-Haha O
+Haha I-NP
 its O
-okay O
-wow O
-I O
+okay B-NP
+wow I-NP
+I I-NP
 woke O
 up B-NP
 to O
@@ -29466,7 +29466,7 @@ random?? B-NP
 
 Home O
 *tag-error* B-NP
-le O
+le I-NP
 
 Hahaha O
 can O
@@ -29513,7 +29513,7 @@ him O
 ? O
 
 Lol O
-wiki O
+wiki B-NP
 ?! O
 I O
 think O
@@ -29559,7 +29559,7 @@ call O
 you O
 when O
 I O
-reach O
+reach B-NP
 
 Yeah O
 checkout's O
@@ -29621,7 +29621,7 @@ be O
 so O
 early! O
 
-Yeas O
+Yeas B-NP
 going O
 up O
 1st B-NP
@@ -29635,7 +29635,7 @@ I O
 can't O
 make O
 it, O
-unless O
+unless B-NP
 tmr O
 morning, O
 next O
@@ -29702,15 +29702,15 @@ haha, O
 Raghav O
 and O
 tham B-NP
-only O
-came B-NP
+only I-NP
+came I-NP
 for O
-dinner O
-then O
+dinner B-NP
+then I-NP
 timo O
 went O
 tosit O
-with O
+with B-NP
 someone O
 else O
 ! O
@@ -29762,8 +29762,8 @@ There's O
 so O
 many O
 outlet B-NP
-stores I-NP
-at I-NP
+stores O
+at B-NP
 the I-NP
 mall I-NP
 opposite O
@@ -29771,9 +29771,9 @@ expo O
 ! O
 
 Lols O
-how? O
-Pass O
-u B-NP
+how? B-NP
+Pass I-NP
+u I-NP
 now I-NP
 ? I-NP
 
@@ -29806,10 +29806,10 @@ although O
 you O
 would O
 think O
-armand B-NP
-would I-NP
-eventually I-NP
-build I-NP
+armand O
+would O
+eventually O
+build O
 up O
 a O
 tolerance O
@@ -29821,14 +29821,14 @@ how I-NP
 much I-NP
 he O
 smokes, O
-he O
+he B-NP
 gets O
 fucked O
 up B-NP
 in I-NP
 like I-NP
 2 I-NP
-hits I-NP
+hits O
 
 Hahaha O
 I B-NP
@@ -29860,12 +29860,12 @@ house O
 warming O
 
 Just O
-getting O
-back O
-home O
+getting B-NP
+back I-NP
+home I-NP
 
-Oh O
-no B-NP
+Oh I-NP
+no O
 I O
 wanted B-NP
 to I-NP
@@ -29873,11 +29873,11 @@ type I-NP
 (: O
 not O
 (; B-NP
-now I-NP
-the I-NP
-smiley I-NP
-looks I-NP
-weird! I-NP
+now O
+the O
+smiley B-NP
+looks O
+weird! B-NP
 
 Hahaha O
 sorry O
@@ -29917,10 +29917,10 @@ man O
 Ok. O
 Let O
 me O
-know O
-when O
-you O
-are O
+know B-NP
+when B-NP
+you I-NP
+are I-NP
 arriving. O
 I O
 'll O
@@ -29977,7 +29977,7 @@ it O
 doesnt B-NP
 seems O
 like B-NP
-that O
+that I-NP
 to O
 me O
 . O
@@ -30090,8 +30090,8 @@ date O
 tonight B-NP
 
 Nvm O
-I O
-help O
+I B-NP
+help B-NP
 u O
 buy O
 large O
@@ -30112,7 +30112,7 @@ Omg O
 she B-NP
 really I-NP
 asked O
-bingjie O
+bingjie B-NP
 !! O
 To B-NP
 replace O
@@ -30133,18 +30133,18 @@ dinner O
 ? O
 But O
 I B-NP
-dunno O
+dunno I-NP
 if O
 my O
 cluster O
 mentor O
-can O
-pay O
+can B-NP
+pay B-NP
 though, O
 we're B-NP
 eating O
-fish O
-n O
+fish B-NP
+n I-NP
 co O
 ! O
 I B-NP
@@ -30207,7 +30207,7 @@ indeed O
 I O
 am O
 
-Hahahaha O
+Hahahaha B-NP
 come O
 eh B-NP
 I O
@@ -30310,7 +30310,7 @@ PIDGINS O
 
 Hahaha O
 yeah!!!!!!!!!!! B-NP
-I O
+I I-NP
 was O
 very O
 sad O
@@ -30337,12 +30337,12 @@ cool! O
 That B-NP
 part I-NP
 you I-NP
-did I-NP
-the I-NP
+did O
+the O
 people O
 largely O
 not O
-fromdance O
+fromdance B-NP
 right O
 hahaha! B-NP
 
@@ -30354,7 +30354,7 @@ xi O
 have B-NP
 you I-NP
 left I-NP
-the I-NP
+the O
 house O
 ? B-NP
 i I-NP
@@ -30378,7 +30378,7 @@ by O
 <#> O
 lidat. O
 
-Oh O
+Oh I-NP
 okay O
 then O
 thurs O
@@ -30435,7 +30435,7 @@ prom O
 Hahaha O
 
 Michael O
-this O
+this B-NP
 time O
 
 Ohh O
@@ -30488,8 +30488,8 @@ no O
 chinese B-NP
 file B-NP
 ! I-NP
-Pig O
-why B-NP
+Pig I-NP
+why O
 are O
 you O
 up! O
@@ -30506,7 +30506,7 @@ Haha O
 quite O
 cool O
 lah, O
-we O
+we B-NP
 play O
 cards O
 at B-NP
@@ -30688,9 +30688,9 @@ sized O
 or B-NP
 what I-NP
 
-Hi,how O
-are O
-you O
+Hi,how I-NP
+are I-NP
+you I-NP
 
 So O
 ke O
@@ -30767,8 +30767,8 @@ you I-NP
 alot I-NP
 haha>< I-NP
 
-Lol O
-I B-NP
+Lol I-NP
+I I-NP
 know. I-NP
 And O
 he O
@@ -30872,7 +30872,7 @@ to O
 do O
 between O
 4 B-NP
-to O
+to I-NP
 5 O
 plus O
 ? O
@@ -30885,7 +30885,7 @@ oso O
 leave O
 sch O
 oledi, O
-to O
+to B-NP
 avoid O
 <DECIMAL> B-NP
 peak O
@@ -30976,26 +30976,26 @@ pm O
 . B-NP
 So O
 once O
-he O
-sees O
-the O
-dedication O
-u O
-guys B-NP
+he B-NP
+sees I-NP
+the I-NP
+dedication I-NP
+u I-NP
+guys O
 cancome O
 up O
 with O
 a O
 birthday O
 cake O
-. O
-If O
-u O
+. B-NP
+If I-NP
+u I-NP
 have O
-other O
-suggestions O
-feel O
-free O
+other B-NP
+suggestions B-NP
+feel I-NP
+free I-NP
 tolet O
 me O
 know B-NP
@@ -31042,26 +31042,26 @@ professional O
 service O
 should O
 be B-NP
-not O
-bad O
+not I-NP
+bad B-NP
 rite B-NP
 
 OMG I-NP
 ' I-NP
 M I-NP
-THE O
-WORST O
+THE I-NP
+WORST I-NP
 
-Lol O
-i O
+Lol I-NP
+i I-NP
 dunno O
-go B-NP
-ask O
+go O
+ask B-NP
 on O
-facebook O
+facebook B-NP
 
-Mine O
-too O
+Mine I-NP
+too I-NP
 lols! O
 
 Reading O
@@ -31098,7 +31098,7 @@ Haha B-NP
 so O
 nice:P O
 see B-NP
-he O
+he I-NP
 went O
 into O
 the O
@@ -31150,7 +31150,7 @@ he O
 don't B-NP
 want I-NP
 to O
-do O
+do B-NP
 his O
 revision, O
 I O
@@ -31242,10 +31242,10 @@ in O
 the O
 user O
 name O
-place O
-, O
+place B-NP
+, I-NP
 and O
-it O
+it B-NP
 will O
 show O
 you O
@@ -31256,18 +31256,18 @@ The O
 lower O
 number O
 is B-NP
-my O
-number O
-. O
-Once B-NP
-you O
+my B-NP
+number B-NP
+. I-NP
+Once I-NP
+you I-NP
 pick O
 that B-NP
-number O
-the O
-pin O
-will O
-display O
+number I-NP
+the I-NP
+pin I-NP
+will I-NP
+display I-NP
 okay! O
 
 Hey O
@@ -31311,7 +31311,7 @@ LOL O
 GO O
 EAT O
 NOM O
-NOM O
+NOM B-NP
 NOM O
 I O
 WILL O
@@ -31332,7 +31332,7 @@ da O
 
 Not O
 sure. B-NP
-Might O
+Might I-NP
 be O
 able O
 to O
@@ -31359,17 +31359,17 @@ other O
 interns O
 
 Oh O
-sunday O
-I O
-also O
+sunday B-NP
+I I-NP
+also I-NP
 have O
 something O
 in O
 the O
 morning, O
 earliest O
-<#> O
-. B-NP
+<#> B-NP
+. I-NP
 
 Sorry O
 latest O
@@ -31422,7 +31422,7 @@ shld O
 Chen B-NP
 ji O
 nap! B-NP
-Wa O
+Wa I-NP
 finish O
 half O
 le B-NP
@@ -31445,7 +31445,7 @@ jia I-NP
 you I-NP
 le! I-NP
 
-LOL O
+LOL I-NP
 WAS O
 THAT O
 SUPPOSED O
@@ -31469,9 +31469,9 @@ to O
 come B-NP
 my I-NP
 house I-NP
-me B-NP
-but B-NP
-nvm I-NP
+me O
+but O
+nvm O
 lah O
 haha B-NP
 since I-NP
@@ -31488,8 +31488,8 @@ go!:D I-NP
 
 No O
 worries, B-NP
-we're O
-here. B-NP
+we're I-NP
+here. O
 Should O
 we O
 wait B-NP
@@ -31530,8 +31530,8 @@ as O
 the O
 mind O
 easily O
-forgets O
-but O
+forgets B-NP
+but I-NP
 the O
 heart O
 will O
@@ -31539,9 +31539,9 @@ always O
 remember. B-NP
 Wish O
 you B-NP
-Happy O
-Valentines B-NP
-Day! O
+Happy I-NP
+Valentines I-NP
+Day! I-NP
 
 Oh.like I-NP
 tat I-NP
@@ -31560,23 +31560,23 @@ going B-NP
 try O
 try B-NP
 on I-NP
-Tue I-NP
+Tue O
 haha.say O
 wat O
 got O
 5 O
 interviewer O
-eh B-NP
+eh O
 panel O
-. B-NP
+. O
 
-HAHA I-NP
+HAHA B-NP
 WHERE!!!!!!!!!!!! I-NP
 yay I-NP
 okay!!! O
-Heehee O
-I O
-should O
+Heehee B-NP
+I I-NP
+should I-NP
 really O
 learn O
 howto O
@@ -31622,12 +31622,12 @@ portfolio O
 thanks. O
 We O
 areinterested B-NP
-in O
+in I-NP
 working O
 with O
-you B-NP
-on I-NP
-our I-NP
+you O
+on O
+our O
 house O
 reno O
 , O
@@ -31660,8 +31660,8 @@ the O
 quote O
 (especially O
 theroof O
-, O
-others O
+, B-NP
+others I-NP
 contractors O
 have O
 been O
@@ -31688,13 +31688,13 @@ that O
 good I-NP
 :) I-NP
 focus I-NP
-on O
-your O
-guitar O
-and O
-bass O
-first O
-la.. O
+on I-NP
+your I-NP
+guitar I-NP
+and I-NP
+bass I-NP
+first I-NP
+la.. I-NP
 
 You O
 there O
@@ -31707,9 +31707,9 @@ pass O
 me O
 the O
 forms O
-asap. B-NP
-Because I-NP
-I I-NP
+asap. O
+Because O
+I B-NP
 food I-NP
 already I-NP
 but O
@@ -31744,7 +31744,7 @@ u! O
 Goback O
 safely O
 k. B-NP
-Muacks! O
+Muacks! I-NP
 
 Yea O
 4 B-NP
@@ -31770,7 +31770,7 @@ he B-NP
 going? O
 
 Whose B-NP
-lesson O
+lesson I-NP
 
 What's O
 up O
@@ -31876,10 +31876,10 @@ with O
 you? O
 
 I B-NP
-see... O
-are O
-you O
-feeling O
+see... I-NP
+are I-NP
+you I-NP
+feeling I-NP
 okay? O
 
 It B-NP
@@ -31918,8 +31918,8 @@ booth B-NP
 le O
 
 Hehehehe O
-what O
-are B-NP
+what B-NP
+are I-NP
 you I-NP
 doing I-NP
 while O
@@ -31929,8 +31929,8 @@ Rmb O
 bring O
 ukelele!! O
 
-She O
-'s O
+She I-NP
+'s I-NP
 fine. O
 Sends O
 her O
@@ -31943,8 +31943,8 @@ okay. O
 i'll O
 give O
 it B-NP
-a O
-miss.. O
+a I-NP
+miss.. I-NP
 exam O
 haven O
 over O
@@ -31980,7 +31980,7 @@ Coming B-NP
 out I-NP
 lo I-NP
 
-Haha O
+Haha B-NP
 yeah O
 maybe O
 I O
@@ -32098,9 +32098,9 @@ normally O
 study O
 alone O
 or O
-with O
-friends O
-? O
+with B-NP
+friends I-NP
+? I-NP
 
 Uhh O
 me O
@@ -32158,9 +32158,9 @@ But B-NP
 are I-NP
 you O
 in O
-your O
-office O
-now?Because B-NP
+your B-NP
+office I-NP
+now?Because I-NP
 I O
 urgently B-NP
 need I-NP
@@ -32207,7 +32207,7 @@ late! O
 Haha... B-NP
 
 Yeah I-NP
-still I-NP
+still O
 watching. O
 Aiya B-NP
 moms O
@@ -32260,7 +32260,7 @@ on O
 density O
 of O
 air,speed O
-of B-NP
+of O
 the O
 objects, O
 some O
@@ -32317,7 +32317,7 @@ Borrowing B-NP
 wei I-NP
 tsang's I-NP
 wired I-NP
-connectionnow. O
+connectionnow. I-NP
 Missing O
 u O
 all O
@@ -32355,8 +32355,8 @@ THAT O
 LAH O
 OBVIOUSLY O
 AFTER B-NP
-OUR O
-EXAMS O
+OUR I-NP
+EXAMS I-NP
 I O
 WILL O
 BORROW!HAHA O
@@ -32398,8 +32398,8 @@ lah!!" O
 Haha O
 okay B-NP
 I'll O
-come O
-online! O
+come B-NP
+online! B-NP
 (: O
 haha O
 idm O
@@ -32407,7 +32407,7 @@ anything! O
 (:ohh O
 yay!!! O
 Good O
-for O
+for B-NP
 you^^ O
 
 Small O
@@ -32471,7 +32471,7 @@ thanks I-NP
 for I-NP
 today! O
 
-Haha O
+Haha I-NP
 ps O
 someone O
 opened O
@@ -32483,7 +32483,7 @@ la O
 I B-NP
 probably O
 didn't B-NP
-do O
+do I-NP
 toowell! O
 Oh O
 another O
@@ -32519,10 +32519,10 @@ already! O
 Hahaha O
 sorry O
 for O
-what! O
-I O
+what! B-NP
+I I-NP
 also O
-never O
+never B-NP
 say O
 youhave O
 to O
@@ -32547,9 +32547,9 @@ I O
 got O
 more O
 experience O
-in O
-java... O
-and O
+in B-NP
+java... I-NP
+and I-NP
 no, B-NP
 he B-NP
 isn'tin O
@@ -32592,10 +32592,10 @@ bah O
 
 Timo I-NP
 there I-NP
-liao, O
-ryan O
-and B-NP
-I O
+liao, I-NP
+ryan I-NP
+and I-NP
+I I-NP
 are O
 2 O
 stops O
@@ -32635,7 +32635,7 @@ you O
 won't O
 be B-NP
 sian O
-when O
+when B-NP
 I O
 go O
 nz O
@@ -32750,7 +32750,7 @@ Sianz O
 la. B-NP
 Shiok I-NP
 good I-NP
-table I-NP
+table O
 mate O
 eh O
 
@@ -32775,8 +32775,8 @@ is O
 dun B-NP
 really I-NP
 nid I-NP
-much I-NP
-calculation.but I-NP
+much O
+calculation.but O
 if O
 wan O
 map O
@@ -32784,17 +32784,17 @@ oso B-NP
 ok O
 ba O
 I B-NP
-think. O
+think. I-NP
 
 What B-NP
 haha I-NP
 I I-NP
 just I-NP
 saw O
-this O
-. O
-Hostel O
-then? B-NP
+this B-NP
+. I-NP
+Hostel I-NP
+then? I-NP
 
 Hi I-NP
 happy O
@@ -32843,7 +32843,7 @@ Hi O
 this O
 is B-NP
 ur O
-freshie O
+freshie B-NP
 frm O
 algon B-NP
 . O
@@ -32851,30 +32851,30 @@ sry, B-NP
 didn't O
 realise O
 u O
-called O
-last O
+called B-NP
+last I-NP
 =) O
 
 With O
 3 O
 ex-classmates O
-in O
-the O
-other B-NP
+in B-NP
+the B-NP
+other O
 3 O
 fac O
 shirts O
 (Y) O
 But O
-I O
-'m B-NP
+I B-NP
+'m I-NP
 the I-NP
 only I-NP
 guy O
 (N) O
 awkwarddddd O
 
-Hi O
+Hi B-NP
 weicheng O
 , O
 shihwan O
@@ -32882,9 +32882,9 @@ frm O
 nus O
 canoeing O
 club B-NP
-, O
-we O
-hav O
+, I-NP
+we I-NP
+hav I-NP
 gave O
 one O
 of O
@@ -32910,9 +32910,9 @@ change O
 the B-NP
 bibs I-NP
 .. O
-Sry O
-for O
-the O
+Sry B-NP
+for I-NP
+the I-NP
 inconveniences O
 caused O
 
@@ -32970,10 +32970,10 @@ add B-NP
 , O
 <EMAIL> O
 
-isnt B-NP
-it O
-<#> O
-? O
+isnt I-NP
+it I-NP
+<#> I-NP
+? I-NP
 
 Still O
 getting O
@@ -33075,7 +33075,7 @@ of O
 u. O
 Muacks. O
 
-Betta O
+Betta I-NP
 is O
 the O
 name O
