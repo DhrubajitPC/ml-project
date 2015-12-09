@@ -174,8 +174,8 @@ def get_emission_probability(emission_probabilities, tag_count, word, tag):
 					# return 0.5/(tag_count[tag]+1)
 			# #TODO: find closest match
 			# return 0.25/(tag_count[tag]+1) #1/(tag_count+1)
-		return 1.0/(tag_count[tag]+1) #1/(tag_count+1)
-		#return 1.0/(sum(tag_count.itervalues())+1) #1/(#ofWords+1)
+		#return 1.0/(tag_count[tag]+1) #1/(tag_count+1)
+		return 1.0/(sum(tag_count.itervalues())+1) #1/(#ofWords+1)
 
 # def pos_tagger(word_list):
 	# global emission_probabilities
@@ -196,17 +196,21 @@ def get_emission_probability(emission_probabilities, tag_count, word, tag):
 
 #compute transmission probabilities based on count_tag_giventags and giventags_count
 def get_transmission_probabilities(count_tag_giventags,giventags_count):
-        transmission_probabilities = {}
-        for tp in count_tag_giventags.keys():
-                x = tp.split("_*_")
-                tag = x[0]
-                next_tags = x[1]
-                transmission_probabilities[tp] = float(count_tag_giventags[tp])/giventags_count[next_tags]
-        return transmission_probabilities
+	transmission_probabilities = {}
+	for tp in count_tag_giventags.keys():
+		x = tp.split("_*_")
+		tag = x[0]
+		next_tags = x[1]
+		trans_prob = float(count_tag_giventags[tp])/giventags_count[next_tags]
+		#unbiased probability
+		transmission_probabilities[tp] = (trans_prob * giventags_count[next_tags])/(giventags_count[next_tags]+10)
+	return transmission_probabilities
 
 #get transmission probability given some tags
 #refer to get_count_tag_giventags for the complicated details
 def get_transmission_probability(transmission_probabilities,tag_index,tag_sequence,n,trim='n'):
+	global tag_count 
+	
 	tag = tag_sequence[tag_index]
 	key = [tag_sequence[i] for i in range(max(0,tag_index-n),min(len(tag_sequence),tag_index+n+1))] #limit to within sequence range
 	key[n if tag_index-n>0 else tag_index] = '**'
@@ -217,25 +221,25 @@ def get_transmission_probability(transmission_probabilities,tag_index,tag_sequen
 	string_key = str(key)
 	tp = get_dict_count(transmission_probabilities, tag, string_key)
 	if (tp>0):
-		return tp
+		return tp * (1.0 if trim=='n' else 1.0/(giventags_count[string_key]+1))
 	else:
-		if (trim=='n'): #none
-			trim_factor = 1.0/(giventags_count[string_key]+1)
-			if (key[0]!='**'):
-				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='l')
-			elif(key[-1]!='**'):
-				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
-			elif(n>1):
-				return trim_factor * get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
-		elif (trim=='l'): #left trim
-			if(key[-1]!='**'):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
-			elif(n>1):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
-		else: #right trim
-			if(n>1):
-				return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
-		return 1.0/(sum(giventags_count.iteritems())+1)
+		if ((key[0]!='**' and key[-1]!='**') or n>1): #trimmable
+			if (trim=='n'): #none
+				if (key[0]!='**'):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='l')
+				elif(key[-1]!='**'):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
+				elif(n>1):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
+			elif (trim=='l'): #left trim
+				if(key[-1]!='**'):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n, trim='r')
+				elif(n>1):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
+			else: #right trim
+				if(n>1):
+					return get_transmission_probability(transmission_probabilities, tag_index, tag_sequence, n-1, trim='n')
+		return 1.0/(tag_count[tag]+1)
 
 print 'counting tags...'		
 
@@ -264,16 +268,16 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 		for element in range(len(_tags)):
 			tp = get_transmission_probability(transmission_probabilities, element, _tags, n)
 			ep = get_emission_probability(emission_probabilities, tag_count, sequence[element], _tags[element])
-			ret+= tp*ep
+			ret+= (0.1*tp)*ep
 			if (log):
 				print _tags[element], tp, ep
 		return ret
 	initial_tags = copy.deepcopy(tags)
-	best_objf = objf(log=True)
-	changed = True
-	print sequence
-	print tags
-	print 'initial objf:', best_objf
+	best_objf = objf() # objf(log=True)
+	changed = False #True #change this to true to enable transmission
+	# print sequence
+	# print tags
+	# print 'initial objf:', best_objf
 	
 	while(changed):
 		changed=False
@@ -288,7 +292,7 @@ def sequence_tagger(sequence,tags,transmission_probabilities, tagset, n=1):
 					changed=True
 			tags[i] = best_tag
 		#print 'Changed!:', objf()
-	print 'final objf:', objf(log=True)
+	#print 'final objf:', objf(log=True)
 	#print tags, initial_tags
 	
 	# brute force
@@ -350,7 +354,8 @@ def pos_tagger(sequences):
 	return sequences_pos_tags
 
 ##testing part
-test_data = "pos/dev.in"
+#test_data = "pos/dev.in"
+test_data = "pos/ml1.txt"
 
 with open(test_data,"r") as f:
 	raw_data = f.read()
@@ -395,8 +400,9 @@ def get_actual_tag_sequences(test_output):
 			tags.remove(i)
 	return tags
 
-#write part3
-p5_file = "pos/dev.p5.out"
+#write part5
+#p5_file = "pos/dev.p5.out"
+p5_file = "pos/ml1.out.txt"
 
 def write_to_file(p3_file, tag_sequences_p3, raw_data):
 	string = ""
