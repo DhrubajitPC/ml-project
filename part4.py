@@ -187,7 +187,7 @@ def viterbi_p4(word_sequence, transmission_probabilities, emission_probabilities
 			for tag in tag_set:
 				transmission_probability = get_transmission_probability(transmission_probabilities,"Start", tag)
 				emission_probability = get_emission_probability(emission_probabilities,tag_count,word_sequence[k-1],tag)
-				tag_memo[tag] = {k:(transmission_probability*emission_probability, tag)}
+				tag_memo[tag] = {k:(transmission_probability*emission_probability, tag, 1)}
 			memo[k] = tag_memo
 		else:
 			tag_memo = {}
@@ -197,12 +197,14 @@ def viterbi_p4(word_sequence, transmission_probabilities, emission_probabilities
 			memo[k] = tag_memo
 	rank = pi_p4(len(word_sequence), "End", memo, word_sequence,tag_count,transmission_probabilities,emission_probabilities)
 	tag_memo["End"] = rank
+	# print rank
 	memo[len(word_sequence)+1] = tag_memo
 	return memo
 
 def pi_p4(k,v,memo,word_sequence, tag_count, transmission_probabilities,emission_probabilities):
 	prob_list = [0]*10
 	chosen_tag_list = [""]*10
+	previous_rank = [1]*10
 	for tag in memo[k-1]:
 		if v=="End":
 			transmission_probability = get_transmission_probability(transmission_probabilities,tag,"End")
@@ -217,10 +219,14 @@ def pi_p4(k,v,memo,word_sequence, tag_count, transmission_probabilities,emission
 			inserted,index = insert_val(prob, prob_list)
 			if inserted:
 				# print prob_list
+				# print index
 				chosen_tag_list[index] = tag
+				previous_rank[index]=rank
 	rank={}
+	# print previous_rank
 	for i in range(len(prob_list)):
-		rank[i+1] = (prob_list[i],chosen_tag_list[i])
+		rank[i+1] = (prob_list[i],chosen_tag_list[i],previous_rank[i])
+	# print rank
 	return rank
 
 def insert_val(x, li):
@@ -282,9 +288,9 @@ def get_tag_sequences(test_word_sequences,transmission_probabilities,emission_pr
 	tag_sequences =[]
 	for word_sequence in test_word_sequences:
 		memo = viterbi(word_sequence, transmission_probabilities, emission_probabilities,tag_set, tag_count)
-		tag_sequence=[]
 		j = len(memo)
 		tag = memo[j]["End"][1]
+		tag_sequence=[tag]
 		j-=1
 		while j>0:
 			tag = memo[j][tag][1]
@@ -298,14 +304,20 @@ def get_tag_sequences_p4(test_word_sequences,transmission_probabilities,emission
 	tag_sequences =[]
 	for word_sequence in test_word_sequences:
 		memo = viterbi_p4(word_sequence, transmission_probabilities, emission_probabilities,tag_set, tag_count)
-		tag_sequence=[]
 		j = len(memo)
 		tag = memo[j]["End"][10][1]
+		rank = memo[j]["End"][10][2]
+		tag_sequence=[tag]
 		j-=1
 		while j>0:
-			tag = memo[j][tag][1][1]
+			# try:
+			tag = memo[j][tag][rank][1]
+			rank = memo[j][tag][rank][2]
 			tag_sequence.append(tag)
 			j-=1
+			# except Exception as ex:
+			# 	print tag, rank, tag_sequence
+			# 	raise ex
 		tag_sequence.reverse()
 		tag_sequences.append(tag_sequence)
 	return tag_sequences
