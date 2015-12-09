@@ -430,15 +430,15 @@ def viterbi_acc(l1,l2):
 				count+=1
 	return float(count)/total_count
 
-_file = "pos/dev.out"
-with open(_file, "r") as f:
-	test_output = f.read()
+# _file = "pos/dev.out"
+# with open(_file, "r") as f:
+	# test_output = f.read()
 	
 ##Comparing Accuracy
-actual_tag_sequences = get_actual_tag_sequences(test_output)
+#actual_tag_sequences = get_actual_tag_sequences(test_output)
 
 write_to_file(p5_file,predicted_word_tag,raw_data)
 
 print new_word_set_mapper
 
-print 'Accuracy:', viterbi_acc(actual_tag_sequences,predicted_word_tag)
+#print 'Accuracy:', viterbi_acc(actual_tag_sequences,predicted_word_tag)
